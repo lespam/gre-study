@@ -1,0 +1,261 @@
+{
+ "topic": "reading-comprehension",
+ "title": "Reading Comprehension",
+ "version": 1,
+ "items": [
+  {
+   "id": "rc-main-L",
+   "type": "lesson",
+   "topic": "reading-comprehension",
+   "difficulty": 1,
+   "title": "Idea principal y detalles",
+   "body": "Lee el pasaje buscando qué quiere lograr el autor: la idea principal. En las preguntas de detalle, verifica cada opción con una frase del texto. Descarta opciones que suenan razonables pero no se dicen en el pasaje, o que exageran (palabras como 'siempre', 'nunca', 'todos').",
+   "example": "Si un pasaje describe ventajas y luego riesgos, la idea principal combina ambas partes; una opción que solo menciona una de ellas es incompleta."
+  },
+  {
+   "id": "rc-main-01",
+   "type": "mc",
+   "topic": "reading-comprehension",
+   "difficulty": 1,
+   "stem": "Which of the following best states the main idea of the passage?",
+   "choices": [
+    "Urban beekeeping offers real advantages for bees but carries risks that need to be managed.",
+    "City bees produce safer honey than rural bees.",
+    "Pesticides are the main threat to bees worldwide.",
+    "Beekeepers should avoid cities altogether."
+   ],
+   "answer": 0,
+   "hint": "El pasaje tiene ventajas, un 'Yet' y recomendaciones.",
+   "explanation": "El pasaje presenta ventajas, luego riesgos y recomienda gestionarlos.",
+   "whyWrong": [
+    null,
+    "Contradice el texto: el aire contamina la miel.",
+    "El pasaje no habla de amenazas mundiales.",
+    "El pasaje recomienda gestionar, no evitar las ciudades."
+   ],
+   "passage": "Urban rooftops have become unlikely refuges for honeybees. In cities, flowering plants are spread across parks, balconies, and street trees, and because they bloom at different times, bees often find food across a longer season than their rural counterparts do. Pesticide use is also lower in cities than on large farms. Yet city hives are not free of risk: air pollution can contaminate honey with trace metals, and crowded hives compete for limited nectar. Researchers therefore recommend that urban beekeepers test their honey regularly and limit the number of hives per neighborhood."
+  },
+  {
+   "id": "rc-main-02",
+   "type": "mc",
+   "topic": "reading-comprehension",
+   "difficulty": 1,
+   "stem": "According to the passage, why might city bees have a longer foraging season?",
+   "choices": [
+    "Flowering plants bloom at different times across the city.",
+    "Cities are warmer throughout the year.",
+    "City bees fly greater distances.",
+    "Rural areas contain no flowering plants."
+   ],
+   "answer": 0,
+   "hint": "Busca 'longer season'.",
+   "explanation": "El texto dice que las plantas florecen en épocas distintas.",
+   "whyWrong": [
+    null,
+    "Nada indica que las ciudades sean más cálidas.",
+    "No se menciona la distancia de vuelo.",
+    "Exagera: solo se compara la duración de la temporada."
+   ],
+   "passage": "Urban rooftops have become unlikely refuges for honeybees. In cities, flowering plants are spread across parks, balconies, and street trees, and because they bloom at different times, bees often find food across a longer season than their rural counterparts do. Pesticide use is also lower in cities than on large farms. Yet city hives are not free of risk: air pollution can contaminate honey with trace metals, and crowded hives compete for limited nectar. Researchers therefore recommend that urban beekeepers test their honey regularly and limit the number of hives per neighborhood."
+  },
+  {
+   "id": "rc-main-03",
+   "type": "mc",
+   "topic": "reading-comprehension",
+   "difficulty": 2,
+   "stem": "Which of the following can be inferred from the passage?",
+   "choices": [
+    "Packing many hives into one neighborhood could leave each hive with less nectar.",
+    "Honey testing is unnecessary for city beekeepers.",
+    "Rural honey is always free of contamination.",
+    "Parks in cities contain no flowering plants."
+   ],
+   "answer": 0,
+   "hint": "Conecta 'crowded hives' con 'limited nectar'.",
+   "explanation": "Hives apiñadas compiten por néctar limitado, por eso se recomienda limitarlas.",
+   "whyWrong": [
+    null,
+    "El pasaje recomienda hacer pruebas.",
+    "'Always' no se sostiene con el texto.",
+    "El texto dice que las plantas están en parques."
+   ],
+   "passage": "Urban rooftops have become unlikely refuges for honeybees. In cities, flowering plants are spread across parks, balconies, and street trees, and because they bloom at different times, bees often find food across a longer season than their rural counterparts do. Pesticide use is also lower in cities than on large farms. Yet city hives are not free of risk: air pollution can contaminate honey with trace metals, and crowded hives compete for limited nectar. Researchers therefore recommend that urban beekeepers test their honey regularly and limit the number of hives per neighborhood."
+  },
+  {
+   "id": "rc-main-04",
+   "type": "multi",
+   "topic": "reading-comprehension",
+   "difficulty": 2,
+   "stem": "Which of the following does the passage identify as risks of urban hives? Select all that apply.",
+   "choices": [
+    "Contamination of honey with metals",
+    "Competition for nectar",
+    "High pesticide use",
+    "A lack of flowering plants"
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "hint": "Busca la frase que sigue a 'Yet'.",
+   "explanation": "El texto menciona contaminación por metales y competencia por néctar.",
+   "whyWrong": [
+    null,
+    null,
+    "El texto dice que el uso de pesticidas es menor en ciudades.",
+    "El texto dice que las plantas están repartidas por la ciudad."
+   ],
+   "passage": "Urban rooftops have become unlikely refuges for honeybees. In cities, flowering plants are spread across parks, balconies, and street trees, and because they bloom at different times, bees often find food across a longer season than their rural counterparts do. Pesticide use is also lower in cities than on large farms. Yet city hives are not free of risk: air pollution can contaminate honey with trace metals, and crowded hives compete for limited nectar. Researchers therefore recommend that urban beekeepers test their honey regularly and limit the number of hives per neighborhood."
+  },
+  {
+   "id": "rc-main-05",
+   "type": "mc",
+   "topic": "reading-comprehension",
+   "difficulty": 2,
+   "stem": "The word 'Yet' in the passage signals",
+   "choices": [
+    "a shift from the benefits of urban hives to their risks",
+    "a contradiction of the claim that cities have flowers",
+    "the author's final conclusion",
+    "an example of rural beekeeping"
+   ],
+   "answer": 0,
+   "hint": "Mira qué habla antes y después de 'Yet'.",
+   "explanation": "Antes se listan ventajas; después, riesgos.",
+   "whyWrong": [
+    null,
+    "El texto no niega que haya flores.",
+    "La conclusión llega después, con 'therefore'.",
+    "No se da un ejemplo rural."
+   ],
+   "passage": "Urban rooftops have become unlikely refuges for honeybees. In cities, flowering plants are spread across parks, balconies, and street trees, and because they bloom at different times, bees often find food across a longer season than their rural counterparts do. Pesticide use is also lower in cities than on large farms. Yet city hives are not free of risk: air pollution can contaminate honey with trace metals, and crowded hives compete for limited nectar. Researchers therefore recommend that urban beekeepers test their honey regularly and limit the number of hives per neighborhood."
+  },
+  {
+   "id": "rc-infer-L",
+   "type": "lesson",
+   "topic": "reading-comprehension",
+   "difficulty": 1,
+   "title": "Propósito, inferencia y tono",
+   "body": "Para el propósito, pregunta '¿por qué escribió esto el autor?': describir, argumentar, comparar o criticar. Una inferencia es algo que el texto apoya con fuerza, no algo posible. Para el tono, fíjate en verbos como 'caution', 'insist' o 'complicate'.",
+   "example": "'The authors caution…' indica prudencia, no entusiasmo ni rechazo."
+  },
+  {
+   "id": "rc-infer-01",
+   "type": "mc",
+   "topic": "reading-comprehension",
+   "difficulty": 2,
+   "stem": "The primary purpose of the passage is to",
+   "choices": [
+    "describe a study that qualifies a common assumption about commuting",
+    "argue that commuting should be eliminated",
+    "compare in detail the costs of rail and car travel",
+    "criticize economists for ignoring data"
+   ],
+   "answer": 0,
+   "hint": "Primera frase: la suposición; segunda: el estudio.",
+   "explanation": "Presenta la suposición de que viajar es un costo y un estudio que la matiza.",
+   "whyWrong": [
+    null,
+    "No se propone eliminar nada.",
+    "No se comparan costos en detalle.",
+    "No se critica a los economistas."
+   ],
+   "passage": "For decades, economists treated commuting as a pure cost: time spent traveling was time lost. A recent study of rail commuters complicates that view. Many participants reported using the journey to read, plan their day, or simply decompress, and those with longer train commutes were no less satisfied with their jobs than those who lived nearby. The authors caution, however, that the finding does not extend to drivers, whose journeys leave little room for such activities, and that the sample was limited to one regional rail line."
+  },
+  {
+   "id": "rc-infer-02",
+   "type": "mc",
+   "topic": "reading-comprehension",
+   "difficulty": 1,
+   "stem": "According to the passage, rail commuters with longer trips were",
+   "choices": [
+    "no less satisfied with their jobs than those who lived nearby",
+    "more satisfied with their housing",
+    "less productive at work",
+    "paid more than shorter-distance commuters"
+   ],
+   "answer": 0,
+   "hint": "Busca 'satisfied'.",
+   "explanation": "El texto dice que no estaban menos satisfechos con su trabajo.",
+   "whyWrong": [
+    null,
+    "No se habla de vivienda.",
+    "No se habla de productividad.",
+    "No se habla de salarios."
+   ],
+   "passage": "For decades, economists treated commuting as a pure cost: time spent traveling was time lost. A recent study of rail commuters complicates that view. Many participants reported using the journey to read, plan their day, or simply decompress, and those with longer train commutes were no less satisfied with their jobs than those who lived nearby. The authors caution, however, that the finding does not extend to drivers, whose journeys leave little room for such activities, and that the sample was limited to one regional rail line."
+  },
+  {
+   "id": "rc-infer-03",
+   "type": "mc",
+   "topic": "reading-comprehension",
+   "difficulty": 2,
+   "stem": "Which of the following is most strongly supported by the passage?",
+   "choices": [
+    "The study's finding may not hold for people who drive to work.",
+    "Driving to work costs more than taking the train.",
+    "Rail commuters work fewer hours than drivers.",
+    "Economists have always valued commuting time."
+   ],
+   "answer": 0,
+   "hint": "Busca la frase que empieza con 'The authors caution'.",
+   "explanation": "Los autores advierten que no se extiende a quienes manejan.",
+   "whyWrong": [
+    null,
+    "No se comparan costos.",
+    "No se habla de horas de trabajo.",
+    "Contradice la primera frase."
+   ],
+   "passage": "For decades, economists treated commuting as a pure cost: time spent traveling was time lost. A recent study of rail commuters complicates that view. Many participants reported using the journey to read, plan their day, or simply decompress, and those with longer train commutes were no less satisfied with their jobs than those who lived nearby. The authors caution, however, that the finding does not extend to drivers, whose journeys leave little room for such activities, and that the sample was limited to one regional rail line."
+  },
+  {
+   "id": "rc-infer-04",
+   "type": "multi",
+   "topic": "reading-comprehension",
+   "difficulty": 2,
+   "stem": "Which of the following does the passage present as limitations of the study? Select all that apply.",
+   "choices": [
+    "The sample came from a single regional rail line",
+    "The findings may not apply to drivers",
+    "Participants reported being dissatisfied",
+    "Job satisfaction was not measured"
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "hint": "Las limitaciones están en la última frase.",
+   "explanation": "El texto limita el estudio a una línea de tren y no a quienes manejan.",
+   "whyWrong": [
+    null,
+    null,
+    "No se dice que estuvieran insatisfechos.",
+    "Sí se midió la satisfacción laboral."
+   ],
+   "passage": "For decades, economists treated commuting as a pure cost: time spent traveling was time lost. A recent study of rail commuters complicates that view. Many participants reported using the journey to read, plan their day, or simply decompress, and those with longer train commutes were no less satisfied with their jobs than those who lived nearby. The authors caution, however, that the finding does not extend to drivers, whose journeys leave little room for such activities, and that the sample was limited to one regional rail line."
+  },
+  {
+   "id": "rc-infer-05",
+   "type": "mc",
+   "topic": "reading-comprehension",
+   "difficulty": 1,
+   "stem": "The phrase 'complicates that view' suggests that the study",
+   "choices": [
+    "makes the picture less simple than the earlier assumption",
+    "proves the earlier assumption entirely wrong",
+    "confirms the earlier assumption",
+    "is irrelevant to the earlier assumption"
+   ],
+   "answer": 0,
+   "hint": "'Complicates' no es 'refutes'.",
+   "explanation": "'Complicar' significa matizar, no refutar del todo.",
+   "whyWrong": [
+    null,
+    "'Entirely wrong' exagera.",
+    "Contradice 'complicates'.",
+    "El estudio sí es relevante."
+   ],
+   "passage": "For decades, economists treated commuting as a pure cost: time spent traveling was time lost. A recent study of rail commuters complicates that view. Many participants reported using the journey to read, plan their day, or simply decompress, and those with longer train commutes were no less satisfied with their jobs than those who lived nearby. The authors caution, however, that the finding does not extend to drivers, whose journeys leave little room for such activities, and that the sample was limited to one regional rail line."
+  }
+ ]
+}

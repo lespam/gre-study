@@ -1,0 +1,161 @@
+{
+ "topic": "sentence-equivalence",
+ "title": "Sentence Equivalence",
+ "version": 1,
+ "items": [
+  {
+   "id": "se-pair-L",
+   "type": "lesson",
+   "topic": "sentence-equivalence",
+   "difficulty": 1,
+   "title": "Dos palabras, una idea",
+   "body": "En Sentence Equivalence eliges dos palabras que dan oraciones con el mismo significado. Predice una palabra, busca los dos sinónimos entre las seis opciones y comprueba que cada una encaje sola. Dos sinónimos que no encajan en la oración no cuentan.",
+   "example": "'Her ____ reply was a single word.' Encajan laconic y terse (lacónica, escueta), que significan casi lo mismo."
+  },
+  {
+   "id": "se-pair-01",
+   "type": "multi",
+   "topic": "sentence-equivalence",
+   "difficulty": 1,
+   "stem": "Choose two answer choices. Her ____ response to the criticism surprised everyone; she simply nodded and said nothing.",
+   "choices": [
+    "laconic",
+    "effusive",
+    "terse",
+    "hostile",
+    "jovial",
+    "impetuous"
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "hint": "Predice: 'de pocas palabras'.",
+   "explanation": "Laconic y terse describen una respuesta mínima.",
+   "whyWrong": [
+    null,
+    "Effusive es lo opuesto: muy expresivo.",
+    null,
+    "Hostile no se deduce de asentir en silencio.",
+    "Jovial no encaja con no decir nada.",
+    "Impetuous significa impulsivo."
+   ]
+  },
+  {
+   "id": "se-pair-02",
+   "type": "multi",
+   "topic": "sentence-equivalence",
+   "difficulty": 2,
+   "stem": "Choose two answer choices. The mayor's plan was dismissed as ____: it ignored budget limits and assumed everyone would cooperate.",
+   "choices": [
+    "quixotic",
+    "frugal",
+    "impractical",
+    "lucid",
+    "meticulous",
+    "cogent"
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "hint": "Ignora el presupuesto y supone cooperación total.",
+   "explanation": "Quixotic e impractical: idealista y poco realista.",
+   "whyWrong": [
+    null,
+    "Frugal significa ahorrativo.",
+    null,
+    "Lucid es claro; no se rechaza por irreal.",
+    "Meticulous es cuidadoso, lo opuesto a ignorar límites.",
+    "Cogent es convincente."
+   ]
+  },
+  {
+   "id": "se-pair-03",
+   "type": "multi",
+   "topic": "sentence-equivalence",
+   "difficulty": 2,
+   "stem": "Choose two answer choices. The committee's ____ review missed several obvious errors.",
+   "choices": [
+    "cursory",
+    "meticulous",
+    "perfunctory",
+    "exhaustive",
+    "fastidious",
+    "scrupulous"
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "hint": "Si pasó por alto errores, fue una revisión...",
+   "explanation": "Cursory y perfunctory: superficial, hecha por cumplir.",
+   "whyWrong": [
+    null,
+    "Meticulous implica que no se habrían pasado errores.",
+    null,
+    "Exhaustive implica que no se habrían pasado errores.",
+    "Fastidious (muy minucioso) implica que no se habrían pasado errores.",
+    "Scrupulous implica que no se habrían pasado errores."
+   ]
+  },
+  {
+   "id": "se-pair-04",
+   "type": "multi",
+   "topic": "sentence-equivalence",
+   "difficulty": 3,
+   "stem": "Choose two answer choices. Because the medicine proved ____ to the patient's recovery, doctors stopped prescribing it.",
+   "choices": [
+    "deleterious",
+    "vital",
+    "detrimental",
+    "essential",
+    "neutral",
+    "helpful"
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "hint": "Dejaron de recetarla: ¿hacía bien o mal?",
+   "explanation": "Deleterious y detrimental significan dañino.",
+   "whyWrong": [
+    null,
+    "Vital (indispensable) no justifica dejar de recetarla.",
+    null,
+    "Essential es sinónimo de vital: forma un par, pero contradice la oración.",
+    "Neutral no justifica dejar de recetarla.",
+    "Helpful contradice la oración."
+   ]
+  },
+  {
+   "id": "se-pair-05",
+   "type": "multi",
+   "topic": "sentence-equivalence",
+   "difficulty": 2,
+   "stem": "Choose two answer choices. The speaker's ____ remarks livened up an otherwise dull conference.",
+   "choices": [
+    "ebullient",
+    "somber",
+    "effervescent",
+    "tedious",
+    "banal",
+    "muted"
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "hint": "¿Qué tipo de comentarios animan una conferencia aburrida?",
+   "explanation": "Ebullient y effervescent: llenos de energía.",
+   "whyWrong": [
+    null,
+    "Somber (sombrío) no anima.",
+    null,
+    "Tedious (tedioso) no anima.",
+    "Banal (trivial) no anima.",
+    "Muted (apagado) no anima."
+   ]
+  }
+ ]
+}

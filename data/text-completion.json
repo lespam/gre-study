@@ -1,0 +1,255 @@
+{
+ "topic": "text-completion",
+ "title": "Text Completion",
+ "version": 1,
+ "items": [
+  {
+   "id": "tc-ctx-L",
+   "type": "lesson",
+   "topic": "text-completion",
+   "difficulty": 1,
+   "title": "Pistas del contexto",
+   "body": "Antes de mirar las opciones, lee la oración y predice tu propia palabra para el espacio. Las palabras de contraste (although, but, yet, rather than) invierten el sentido; las de continuidad (because, thus, and) lo mantienen. Elige la opción más cercana a tu predicción y descarta las que contradicen la pista.",
+   "example": "Although the proposal seemed ____ at first, it proved surprisingly practical. 'Although' marca contraste con 'practical', así que predice 'unrealistic' y elige una palabra como 'fanciful'."
+  },
+  {
+   "id": "tc-ctx-01",
+   "type": "mc",
+   "topic": "text-completion",
+   "difficulty": 1,
+   "stem": "Although the senator's speech seemed ____ at first, closer reading revealed a carefully reasoned argument.",
+   "choices": [
+    "rambling",
+    "incisive",
+    "concise",
+    "persuasive",
+    "cogent"
+   ],
+   "answer": 0,
+   "hint": "'Although' invierte la idea de 'carefully reasoned'.",
+   "explanation": "El contraste pide algo como 'desorganizado': rambling.",
+   "whyWrong": [
+    null,
+    "Incisive es positivo; no contrasta con 'carefully reasoned'.",
+    "Concise es positivo; no contrasta.",
+    "Persuasive es positivo; no contrasta.",
+    "Cogent es positivo y casi un sinónimo de 'reasoned'."
+   ]
+  },
+  {
+   "id": "tc-ctx-02",
+   "type": "mc",
+   "topic": "text-completion",
+   "difficulty": 1,
+   "stem": "Because the archive's records were so ____, historians could reconstruct the town's budget year by year.",
+   "choices": [
+    "sparse",
+    "meticulous",
+    "contradictory",
+    "ephemeral",
+    "trivial"
+   ],
+   "answer": 1,
+   "hint": "'Because' continúa la idea: pudieron reconstruir año por año.",
+   "explanation": "Para reconstruir año por año hacen falta registros cuidadosos y completos: meticulous.",
+   "whyWrong": [
+    "Sparse (escasos) haría imposible reconstruir el presupuesto.",
+    null,
+    "Contradictory dificultaría la reconstrucción.",
+    "Ephemeral (pasajeros) no encaja con un archivo.",
+    "Trivial no explica que se pueda reconstruir."
+   ]
+  },
+  {
+   "id": "tc-ctx-03",
+   "type": "mc",
+   "topic": "text-completion",
+   "difficulty": 2,
+   "stem": "Far from calming the debate, the mayor's remark served only to ____ it.",
+   "choices": [
+    "settle",
+    "inflame",
+    "postpone",
+    "summarize",
+    "conceal"
+   ],
+   "answer": 1,
+   "hint": "'Far from calming' anuncia lo contrario de calmar.",
+   "explanation": "Lo contrario de calmar es avivar: inflame.",
+   "whyWrong": [
+    "Settle significa resolver, lo cual sí calma.",
+    null,
+    "Postpone no es lo opuesto a calmar.",
+    "Summarize no tiene relación con la pista.",
+    "Conceal no es lo opuesto a calmar."
+   ]
+  },
+  {
+   "id": "tc-ctx-04",
+   "type": "mc",
+   "topic": "text-completion",
+   "difficulty": 2,
+   "stem": "Her ____ nature made her reluctant to speak at meetings, even when she had the best idea in the room.",
+   "choices": [
+    "gregarious",
+    "diffident",
+    "obsequious",
+    "capricious",
+    "ebullient"
+   ],
+   "answer": 1,
+   "hint": "¿Qué rasgo explica la reticencia a hablar?",
+   "explanation": "Reticente aun con buenas ideas indica timidez: diffident.",
+   "whyWrong": [
+    "Gregarious (sociable) contradice la reticencia.",
+    null,
+    "Obsequious (servil) no tiene que ver con hablar poco.",
+    "Capricious (caprichosa) no explica la reticencia.",
+    "Ebullient (entusiasta) contradice la reticencia."
+   ]
+  },
+  {
+   "id": "tc-ctx-05",
+   "type": "mc",
+   "topic": "text-completion",
+   "difficulty": 2,
+   "stem": "The scientist's claims were ____ by a second laboratory, which independently reached the same results.",
+   "choices": [
+    "undermined",
+    "corroborated",
+    "ignored",
+    "exaggerated",
+    "delayed"
+   ],
+   "answer": 1,
+   "hint": "El segundo laboratorio obtuvo los mismos resultados.",
+   "explanation": "Mismos resultados de forma independiente confirman la afirmación: corroborated.",
+   "whyWrong": [
+    "Undermined significa debilitar, lo opuesto.",
+    null,
+    "Ignored no describe un efecto de reproducir resultados.",
+    "Exaggerated no se deduce.",
+    "Delayed no se deduce."
+   ]
+  },
+  {
+   "id": "tc-two-L",
+   "type": "lesson",
+   "topic": "text-completion",
+   "difficulty": 1,
+   "title": "Dos espacios",
+   "body": "Con dos espacios, resuelve primero el que tenga la pista más clara y luego comprueba que el otro sea coherente con él. Las opciones se muestran como pares (primero, segundo): revisa el par completo contra la oración.",
+   "example": "The film was (i)____ by critics but (ii)____ by audiences. 'But' contrasta: (panned, embraced) funciona; (panned, rejected) no contrasta."
+  },
+  {
+   "id": "tc-two-01",
+   "type": "mc",
+   "topic": "text-completion",
+   "difficulty": 2,
+   "stem": "The theory was initially (i)____ by most physicists, but later experiments (ii)____ its central claim, and today it is widely accepted.",
+   "choices": [
+    "(dismissed, confirmed)",
+    "(embraced, confirmed)",
+    "(dismissed, refuted)",
+    "(embraced, refuted)"
+   ],
+   "answer": 0,
+   "hint": "Hoy es 'widely accepted'.",
+   "explanation": "'Widely accepted' exige que los experimentos confirmaran; 'but' exige que antes se rechazara.",
+   "whyWrong": [
+    null,
+    "'But' pide contraste; embraced + confirmed no contrasta.",
+    "Refuted contradice que hoy esté aceptada.",
+    "Refuted contradice que hoy esté aceptada."
+   ]
+  },
+  {
+   "id": "tc-two-02",
+   "type": "mc",
+   "topic": "text-completion",
+   "difficulty": 2,
+   "stem": "Though the new manager was (i)____ with staff, she was (ii)____ in her demands of vendors, never granting a single extension.",
+   "choices": [
+    "(lenient, unyielding)",
+    "(lenient, flexible)",
+    "(strict, unyielding)",
+    "(strict, flexible)"
+   ],
+   "answer": 0,
+   "hint": "'Never granting a single extension' define el segundo espacio.",
+   "explanation": "Segundo espacio: unyielding. 'Though' contrasta, así que con el personal fue lenient.",
+   "whyWrong": [
+    null,
+    "Flexible contradice 'never granting a single extension'.",
+    "'Though' pide contraste; strict + unyielding no contrasta.",
+    "Flexible contradice 'never granting a single extension'."
+   ]
+  },
+  {
+   "id": "tc-two-03",
+   "type": "mc",
+   "topic": "text-completion",
+   "difficulty": 3,
+   "stem": "Rather than (i)____ the committee's findings, the board accepted them without question, a decision later criticized as (ii)____.",
+   "choices": [
+    "(scrutinizing, credulous)",
+    "(scrutinizing, rigorous)",
+    "(applauding, credulous)",
+    "(applauding, rigorous)"
+   ],
+   "answer": 0,
+   "hint": "Aceptar sin cuestionar es lo contrario de...",
+   "explanation": "Lo contrario de aceptar sin cuestionar es examinar con cuidado; aceptarlo todo es credulous.",
+   "whyWrong": [
+    null,
+    "Una decisión sin cuestionar no sería criticada por ser rigurosa.",
+    "'Rather than' pide un contraste claro; applauding casi equivale a aceptar.",
+    "Rigorous no se critica aquí y applauding no contrasta."
+   ]
+  },
+  {
+   "id": "tc-two-04",
+   "type": "mc",
+   "topic": "text-completion",
+   "difficulty": 3,
+   "stem": "The author's later novels grew increasingly (i)____, each one sparser and more restrained than the last, until her final book was almost (ii)____.",
+   "choices": [
+    "(austere, skeletal)",
+    "(ornate, skeletal)",
+    "(austere, lavish)",
+    "(ornate, lavish)"
+   ],
+   "answer": 0,
+   "hint": "'Sparser' y 'restrained' marcan la dirección.",
+   "explanation": "Menos adorno cada vez: austere, y al final casi skeletal.",
+   "whyWrong": [
+    null,
+    "Ornate contradice 'sparser'.",
+    "Lavish contradice 'sparser'.",
+    "Ornate y lavish contradicen 'sparser'."
+   ]
+  },
+  {
+   "id": "tc-two-05",
+   "type": "mc",
+   "topic": "text-completion",
+   "difficulty": 3,
+   "stem": "Though her colleagues found the plan (i)____, even they admitted that its (ii)____ made it hard to dismiss, since it was backed by years of data.",
+   "choices": [
+    "(quixotic, rigor)",
+    "(quixotic, whimsy)",
+    "(sound, rigor)",
+    "(sound, whimsy)"
+   ],
+   "answer": 0,
+   "hint": "'Backed by years of data' define el segundo espacio.",
+   "explanation": "Los datos dan rigor, y 'though' contrasta con una opinión negativa: quixotic.",
+   "whyWrong": [
+    null,
+    "Whimsy no se apoya con años de datos.",
+    "'Though' pide contraste; sound + rigor no contrasta.",
+    "Sound + whimsy no encaja con los datos ni contrasta."
+   ]
+  }
+ ]
+}

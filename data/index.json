@@ -10,19 +10,19 @@
    "id": "text-completion",
    "title": "Text Completion",
    "area": "verbal",
-   "file": null
+   "file": "data/text-completion.json"
   },
   {
    "id": "sentence-equivalence",
    "title": "Sentence Equivalence",
    "area": "verbal",
-   "file": null
+   "file": "data/sentence-equivalence.json"
   },
   {
    "id": "reading-comprehension",
    "title": "Reading Comprehension",
    "area": "verbal",
-   "file": null
+   "file": "data/reading-comprehension.json"
   },
   {
    "id": "arithmetic",

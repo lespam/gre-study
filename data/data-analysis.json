@@ -1,0 +1,188 @@
+{
+ "topic": "data-analysis",
+ "title": "Análisis de datos",
+ "version": 1,
+ "items": [
+  {
+   "id": "dat-stat-L",
+   "type": "lesson",
+   "topic": "data-analysis",
+   "difficulty": 1,
+   "title": "Media, mediana y rango",
+   "body": "Media = suma ÷ cantidad. Mediana = valor central tras ordenar (promedio de los dos centrales si n es par). Rango = máximo − mínimo. Un valor extremo mueve mucho la media y poco la mediana.",
+   "example": "2, 3, 3, 4, 18: media = 30/5 = 6, mediana = 3. El 18 arrastra la media."
+  },
+  {
+   "id": "dat-stat-01",
+   "type": "numeric",
+   "topic": "data-analysis",
+   "difficulty": 1,
+   "stem": "What is the mean of 4, 8, 9, 11 and 18?",
+   "answer": 10,
+   "tolerance": 0,
+   "hint": "Suma y divide entre 5.",
+   "explanation": "50 ÷ 5 = 10."
+  },
+  {
+   "id": "dat-stat-02",
+   "type": "mc",
+   "topic": "data-analysis",
+   "difficulty": 2,
+   "stem": "What is the median of 3, 9, 1, 7, 12, 5?",
+   "choices": [
+    "5",
+    "6",
+    "6.17",
+    "7"
+   ],
+   "answer": 1,
+   "hint": "Ordena primero.",
+   "explanation": "Ordenado: 1, 3, 5, 7, 9, 12. Mediana = (5 + 7)/2 = 6.",
+   "whyWrong": [
+    "5 es solo uno de los dos centrales.",
+    null,
+    "6.17 es la media (37/6).",
+    "7 es solo uno de los dos centrales."
+   ]
+  },
+  {
+   "id": "dat-stat-03",
+   "type": "numeric",
+   "topic": "data-analysis",
+   "difficulty": 2,
+   "stem": "The average of five numbers is 12. A sixth number is added and the average becomes 14. What is the sixth number?",
+   "answer": 24,
+   "tolerance": 0,
+   "hint": "Compara las sumas: 14·6 y 12·5.",
+   "explanation": "Suma nueva = 84; suma anterior = 60; sexto número = 24."
+  },
+  {
+   "id": "dat-stat-04",
+   "type": "qc",
+   "topic": "data-analysis",
+   "difficulty": 2,
+   "stem": "Consider the set {1, 2, 3, 4, 100}.",
+   "quantityA": "The mean of the set",
+   "quantityB": "The median of the set",
+   "answer": 0,
+   "hint": "Calcula ambas.",
+   "explanation": "Media = 110/5 = 22; mediana = 3."
+  },
+  {
+   "id": "dat-stat-05",
+   "type": "mc",
+   "topic": "data-analysis",
+   "difficulty": 3,
+   "stem": "For the set {2, 4, 6, 8, 10}, which change increases the mean but leaves the median unchanged?",
+   "choices": [
+    "Replace 2 with 1",
+    "Replace 6 with 7",
+    "Replace 10 with 20",
+    "Replace 4 with 3"
+   ],
+   "answer": 2,
+   "hint": "La mediana es el 6 central.",
+   "explanation": "Con 20 la mediana sigue siendo 6 y la media sube.",
+   "whyWrong": [
+    "Baja la media; la mediana sigue en 6.",
+    "Cambia la mediana a 7.",
+    null,
+    "Baja la media; la mediana sigue en 6."
+   ]
+  },
+  {
+   "id": "dat-prob-L",
+   "type": "lesson",
+   "topic": "data-analysis",
+   "difficulty": 1,
+   "title": "Conteo y probabilidad",
+   "body": "Principio de multiplicación: m maneras por n maneras dan m · n. Ordenar n objetos: n!. Elegir k de n sin orden: C(n, k) = n! / (k!(n − k)!). Probabilidad = casos favorables ÷ casos posibles, y P(no A) = 1 − P(A).",
+   "example": "Elegir 2 de 5 personas sin orden: C(5, 2) = 10. Con orden: 5 · 4 = 20."
+  },
+  {
+   "id": "dat-prob-01",
+   "type": "numeric",
+   "topic": "data-analysis",
+   "difficulty": 1,
+   "stem": "In how many different ways can 4 books be arranged on a shelf?",
+   "answer": 24,
+   "tolerance": 0,
+   "hint": "4!",
+   "explanation": "4 · 3 · 2 · 1 = 24."
+  },
+  {
+   "id": "dat-prob-02",
+   "type": "numeric",
+   "topic": "data-analysis",
+   "difficulty": 2,
+   "stem": "How many different 2-person committees can be chosen from 6 people?",
+   "answer": 15,
+   "tolerance": 0,
+   "hint": "El orden no importa.",
+   "explanation": "C(6, 2) = 6·5/2 = 15."
+  },
+  {
+   "id": "dat-prob-03",
+   "type": "mc",
+   "topic": "data-analysis",
+   "difficulty": 1,
+   "stem": "A fair six-sided die is rolled once. What is the probability that the result is greater than 4?",
+   "choices": [
+    "1/6",
+    "1/3",
+    "1/2",
+    "2/3"
+   ],
+   "answer": 1,
+   "hint": "¿Qué resultados cumplen?",
+   "explanation": "Cumplen 5 y 6: 2/6 = 1/3.",
+   "whyWrong": [
+    "1/6 cuenta solo el 6.",
+    null,
+    "1/2 no corresponde a este evento.",
+    "2/3 es la probabilidad de que NO sea mayor que 4."
+   ]
+  },
+  {
+   "id": "dat-prob-04",
+   "type": "qc",
+   "topic": "data-analysis",
+   "difficulty": 2,
+   "stem": "Compare the two quantities.",
+   "quantityA": "The probability of 3 heads in 3 flips of a fair coin",
+   "quantityB": "1/6",
+   "answer": 1,
+   "hint": "(1/2)³",
+   "explanation": "A = 1/8 = 0.125 y B = 1/6 ≈ 0.167. B es mayor."
+  },
+  {
+   "id": "dat-prob-05",
+   "type": "multi",
+   "topic": "data-analysis",
+   "difficulty": 3,
+   "stem": "Which of the following equal 10?",
+   "choices": [
+    "C(5, 2)",
+    "C(5, 3)",
+    "5·4/2",
+    "5·4",
+    "C(10, 1)"
+   ],
+   "answer": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "hint": "Calcula cada uno.",
+   "explanation": "C(5,2) = C(5,3) = 5·4/2 = 10 y C(10,1) = 10.",
+   "whyWrong": [
+    null,
+    null,
+    null,
+    "5·4 = 20 (con orden).",
+    null
+   ]
+  }
+ ]
+}

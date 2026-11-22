@@ -1,0 +1,198 @@
+{
+ "topic": "geometry",
+ "title": "Geometría",
+ "version": 1,
+ "items": [
+  {
+   "id": "geo-tri-L",
+   "type": "lesson",
+   "topic": "geometry",
+   "difficulty": 1,
+   "title": "Triángulos",
+   "body": "Los ángulos de un triángulo suman 180°. En un triángulo rectángulo, a² + b² = c² (Pitágoras); ternas comunes: 3-4-5 y 5-12-13. El área es ½ · base · altura. Cada lado debe ser menor que la suma de los otros dos.",
+   "example": "Catetos 6 y 8: c² = 36 + 64 = 100, c = 10 (es 3-4-5 por 2)."
+  },
+  {
+   "id": "geo-tri-01",
+   "type": "numeric",
+   "topic": "geometry",
+   "difficulty": 1,
+   "stem": "The legs of a right triangle are 9 and 12. What is the length of the hypotenuse?",
+   "answer": 15,
+   "tolerance": 0,
+   "hint": "Es 3-4-5 por 3.",
+   "explanation": "81 + 144 = 225, y √225 = 15."
+  },
+  {
+   "id": "geo-tri-02",
+   "type": "mc",
+   "topic": "geometry",
+   "difficulty": 2,
+   "stem": "Two sides of a triangle are 5 and 9. Which could be the third side?",
+   "choices": [
+    "3",
+    "4",
+    "8",
+    "14"
+   ],
+   "answer": 2,
+   "hint": "El tercer lado está entre 9 − 5 y 9 + 5.",
+   "explanation": "Debe cumplir 4 < x < 14. Solo 8 está en ese rango.",
+   "whyWrong": [
+    "3 es menor que 4.",
+    "4 daría un triángulo degenerado (5 + 4 = 9).",
+    null,
+    "14 daría un triángulo degenerado (5 + 9 = 14)."
+   ]
+  },
+  {
+   "id": "geo-tri-03",
+   "type": "numeric",
+   "topic": "geometry",
+   "difficulty": 1,
+   "stem": "What is the area of a triangle with base 10 and height 7?",
+   "answer": 35,
+   "tolerance": 0,
+   "hint": "½ · base · altura.",
+   "explanation": "½ · 10 · 7 = 35."
+  },
+  {
+   "id": "geo-tri-04",
+   "type": "qc",
+   "topic": "geometry",
+   "difficulty": 2,
+   "stem": "A right triangle has legs 5 and 12.",
+   "quantityA": "The length of the hypotenuse",
+   "quantityB": "12.5",
+   "answer": 0,
+   "hint": "Es la terna 5-12-13.",
+   "explanation": "c = 13, que es mayor que 12.5."
+  },
+  {
+   "id": "geo-tri-05",
+   "type": "mc",
+   "topic": "geometry",
+   "difficulty": 2,
+   "stem": "The angles of a triangle are in the ratio 2:3:4. What is the largest angle?",
+   "choices": [
+    "40°",
+    "60°",
+    "80°",
+    "90°"
+   ],
+   "answer": 2,
+   "hint": "2x + 3x + 4x = 180.",
+   "explanation": "9x = 180, x = 20. El mayor es 4x = 80°.",
+   "whyWrong": [
+    "40° es el menor (2x).",
+    "60° es el del medio (3x).",
+    null,
+    "90° no sale del cálculo."
+   ]
+  },
+  {
+   "id": "geo-circ-L",
+   "type": "lesson",
+   "topic": "geometry",
+   "difficulty": 1,
+   "title": "Círculos y rectángulos",
+   "body": "Círculo de radio r: circunferencia 2πr y área πr². Rectángulo: área = largo × ancho y perímetro = 2(largo + ancho). Si duplicas todas las longitudes, el área se multiplica por 4.",
+   "example": "r = 3: circunferencia 6π, área 9π. Con r = 6: área 36π, cuatro veces mayor."
+  },
+  {
+   "id": "geo-circ-01",
+   "type": "mc",
+   "topic": "geometry",
+   "difficulty": 2,
+   "stem": "A circle has circumference 10π. What is its area?",
+   "choices": [
+    "5π",
+    "10π",
+    "25π",
+    "100π"
+   ],
+   "answer": 2,
+   "hint": "Halla r desde 2πr = 10π.",
+   "explanation": "r = 5, área = π · 5² = 25π.",
+   "whyWrong": [
+    "5π usa r en vez de r².",
+    "10π es la circunferencia.",
+    null,
+    "100π usa el diámetro al cuadrado."
+   ]
+  },
+  {
+   "id": "geo-circ-02",
+   "type": "numeric",
+   "topic": "geometry",
+   "difficulty": 2,
+   "stem": "A rectangle has perimeter 30 and length 9. What is its area?",
+   "answer": 54,
+   "tolerance": 0,
+   "hint": "Ancho = 15 − 9.",
+   "explanation": "2(9 + w) = 30, w = 6. Área = 9 · 6 = 54."
+  },
+  {
+   "id": "geo-circ-03",
+   "type": "qc",
+   "topic": "geometry",
+   "difficulty": 3,
+   "stem": "Compare the two quantities.",
+   "quantityA": "The area of a circle with radius 4",
+   "quantityB": "48",
+   "answer": 0,
+   "hint": "Usa π ≈ 3.14.",
+   "explanation": "16π ≈ 50.3, que es mayor que 48."
+  },
+  {
+   "id": "geo-circ-04",
+   "type": "mc",
+   "topic": "geometry",
+   "difficulty": 1,
+   "stem": "If the side of a square is doubled, its area is multiplied by what number?",
+   "choices": [
+    "2",
+    "4",
+    "6",
+    "8"
+   ],
+   "answer": 1,
+   "hint": "(2s)² = ?",
+   "explanation": "(2s)² = 4s²: el área se multiplica por 4.",
+   "whyWrong": [
+    "2 sería el cambio del perímetro.",
+    null,
+    "6 no corresponde a ninguna fórmula.",
+    "8 sería el cambio de volumen en un cubo."
+   ]
+  },
+  {
+   "id": "geo-circ-05",
+   "type": "multi",
+   "topic": "geometry",
+   "difficulty": 2,
+   "stem": "Which could be the dimensions (length × width) of a rectangle with area 24?",
+   "choices": [
+    "3 × 8",
+    "4 × 6",
+    "5 × 5",
+    "2 × 12",
+    "6 × 6"
+   ],
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "hint": "Multiplica cada par.",
+   "explanation": "3·8, 4·6 y 2·12 dan 24.",
+   "whyWrong": [
+    null,
+    null,
+    "5 × 5 = 25.",
+    null,
+    "6 × 6 = 36."
+   ]
+  }
+ ]
+}

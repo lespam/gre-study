@@ -34,19 +34,19 @@
    "id": "algebra",
    "title": "Álgebra",
    "area": "quant",
-   "file": null
+   "file": "data/algebra.json"
   },
   {
    "id": "geometry",
    "title": "Geometría",
    "area": "quant",
-   "file": null
+   "file": "data/geometry.json"
   },
   {
    "id": "data-analysis",
    "title": "Análisis de datos",
    "area": "quant",
-   "file": null
+   "file": "data/data-analysis.json"
   },
   {
    "id": "writing-issue",

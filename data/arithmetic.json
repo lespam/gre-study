@@ -117,6 +117,197 @@
    "tolerance": 0,
    "hint": "No se cancelan: calcula cada paso.",
    "explanation": "80 × 1.25 = 100; luego 100 × 0.75 = 75."
+  },
+  {
+   "id": "arith-rat-L",
+   "type": "lesson",
+   "topic": "arithmetic",
+   "difficulty": 1,
+   "title": "Razones y proporciones",
+   "body": "Una razón compara dos cantidades: a:b es lo mismo que a/b. En una proporción a/b = c/d, multiplica en cruz: ad = bc. Si algo está en razón 2:3, el total se reparte en 2 + 3 = 5 partes iguales.",
+   "example": "Niñas y niños en razón 3:5 con 40 estudiantes. Partes totales: 8. Cada parte vale 40 ÷ 8 = 5. Niñas: 3 × 5 = 15; niños: 5 × 5 = 25."
+  },
+  {
+   "id": "arith-rat-01",
+   "type": "mc",
+   "topic": "arithmetic",
+   "difficulty": 1,
+   "stem": "The ratio of red marbles to blue marbles in a bag is 4:7. If the bag holds 66 marbles, how many are blue?",
+   "choices": [
+    "24",
+    "36",
+    "42",
+    "46"
+   ],
+   "answer": 2,
+   "hint": "Suma las partes: 4 + 7.",
+   "explanation": "Partes totales: 11. Cada parte: 66 ÷ 11 = 6. Azules: 7 × 6 = 42.",
+   "whyWrong": [
+    "24 son las rojas (4 × 6).",
+    "36 usa 6 partes en vez de 7.",
+    null,
+    "46 no sale de ningún cálculo con partes."
+   ]
+  },
+  {
+   "id": "arith-rat-02",
+   "type": "numeric",
+   "topic": "arithmetic",
+   "difficulty": 1,
+   "stem": "If 5 pencils cost $2.40, how many dollars do 12 pencils cost?",
+   "answer": 5.76,
+   "tolerance": 0.005,
+   "hint": "Halla el precio de un lápiz.",
+   "explanation": "Cada lápiz cuesta 2.40 ÷ 5 = 0.48. Doce lápices: 0.48 × 12 = 5.76."
+  },
+  {
+   "id": "arith-rat-03",
+   "type": "mc",
+   "topic": "arithmetic",
+   "difficulty": 2,
+   "stem": "If x/6 = 9/4, what is x?",
+   "choices": [
+    "2.67",
+    "13.5",
+    "15.5",
+    "54"
+   ],
+   "answer": 1,
+   "hint": "Multiplica en cruz: 4x = 54.",
+   "explanation": "4x = 6 × 9 = 54, así que x = 13.5.",
+   "whyWrong": [
+    "2.67 sale de invertir la proporción (6·4/9).",
+    null,
+    "15.5 no sale de la multiplicación en cruz.",
+    "54 es 6 × 9; olvidaste dividir entre 4."
+   ]
+  },
+  {
+   "id": "arith-rat-04",
+   "type": "qc",
+   "topic": "arithmetic",
+   "difficulty": 2,
+   "stem": "Water and juice are mixed in the ratio 3:5.",
+   "quantityA": "The fraction of the mixture that is water",
+   "quantityB": "2/5",
+   "answer": 1,
+   "hint": "La fracción usa el total de partes.",
+   "explanation": "Agua = 3/(3+5) = 3/8 = 0.375, que es menor que 2/5 = 0.4."
+  },
+  {
+   "id": "arith-rat-05",
+   "type": "multi",
+   "topic": "arithmetic",
+   "difficulty": 2,
+   "stem": "Which of the following ratios are equal to 6:9?",
+   "choices": [
+    "2:3",
+    "12:18",
+    "3:2",
+    "18:24",
+    "1:1.5"
+   ],
+   "answer": [
+    0,
+    1,
+    4
+   ],
+   "hint": "Reduce 6:9 dividiendo entre 3.",
+   "explanation": "6:9 = 2:3. 12:18 = 2:3 y 1:1.5 = 2:3.",
+   "whyWrong": [
+    null,
+    null,
+    "3:2 es la razón inversa.",
+    "18:24 = 3:4, no 2:3.",
+    null
+   ]
+  },
+  {
+   "id": "arith-num-L",
+   "type": "lesson",
+   "topic": "arithmetic",
+   "difficulty": 1,
+   "title": "Propiedades de los números",
+   "body": "Un primo es un entero mayor que 1 con exactamente dos divisores; 2 es el único primo par. Para el MCD y el mcm, factoriza en primos: el MCD toma los exponentes menores y el mcm los mayores. Además, MCD × mcm = producto de los dos números.",
+   "example": "12 = 2²·3 y 18 = 2·3². MCD = 2·3 = 6; mcm = 2²·3² = 36. Comprobación: 6 × 36 = 216 = 12 × 18."
+  },
+  {
+   "id": "arith-num-01",
+   "type": "numeric",
+   "topic": "arithmetic",
+   "difficulty": 1,
+   "stem": "What is the greatest common divisor of 48 and 72?",
+   "answer": 24,
+   "tolerance": 0,
+   "hint": "48 = 2⁴·3 y 72 = 2³·3².",
+   "explanation": "MCD = 2³·3 = 24."
+  },
+  {
+   "id": "arith-num-02",
+   "type": "numeric",
+   "topic": "arithmetic",
+   "difficulty": 1,
+   "stem": "What is the least common multiple of 12 and 20?",
+   "answer": 60,
+   "tolerance": 0,
+   "hint": "12 = 2²·3 y 20 = 2²·5.",
+   "explanation": "mcm = 2²·3·5 = 60."
+  },
+  {
+   "id": "arith-num-03",
+   "type": "mc",
+   "topic": "arithmetic",
+   "difficulty": 2,
+   "stem": "Which of the following is a prime number?",
+   "choices": [
+    "51",
+    "57",
+    "61",
+    "63"
+   ],
+   "answer": 2,
+   "hint": "Prueba divisibilidad entre 3 y 7.",
+   "explanation": "61 no es divisible entre 2, 3, 5 ni 7, así que es primo.",
+   "whyWrong": [
+    "51 = 3 × 17.",
+    "57 = 3 × 19.",
+    null,
+    "63 = 7 × 9."
+   ]
+  },
+  {
+   "id": "arith-num-04",
+   "type": "qc",
+   "topic": "arithmetic",
+   "difficulty": 2,
+   "stem": "Compare the two quantities.",
+   "quantityA": "The number of positive divisors of 36",
+   "quantityB": "8",
+   "answer": 0,
+   "hint": "36 = 2²·3².",
+   "explanation": "Divisores = (2+1)(2+1) = 9 (1, 2, 3, 4, 6, 9, 12, 18, 36). 9 > 8."
+  },
+  {
+   "id": "arith-num-05",
+   "type": "mc",
+   "topic": "arithmetic",
+   "difficulty": 3,
+   "stem": "If n is an odd integer, which of the following must be even?",
+   "choices": [
+    "n + 2",
+    "3n",
+    "n² + n",
+    "2n + 1"
+   ],
+   "answer": 2,
+   "hint": "Factoriza n² + n.",
+   "explanation": "n² + n = n(n + 1): dos enteros consecutivos, uno siempre es par.",
+   "whyWrong": [
+    "Impar + 2 sigue siendo impar.",
+    "3 × impar es impar.",
+    null,
+    "2n + 1 siempre es impar."
+   ]
   }
  ]
 }

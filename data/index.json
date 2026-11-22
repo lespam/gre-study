@@ -1,13 +1,58 @@
 {
-  "topics": [
-    { "id": "vocabulary", "title": "Vocabulario", "area": "verbal", "file": "data/vocabulary.json" },
-    { "id": "text-completion", "title": "Text Completion", "area": "verbal", "file": null },
-    { "id": "sentence-equivalence", "title": "Sentence Equivalence", "area": "verbal", "file": null },
-    { "id": "reading-comprehension", "title": "Reading Comprehension", "area": "verbal", "file": null },
-    { "id": "arithmetic", "title": "Aritmética", "area": "quant", "file": null },
-    { "id": "algebra", "title": "Álgebra", "area": "quant", "file": null },
-    { "id": "geometry", "title": "Geometría", "area": "quant", "file": null },
-    { "id": "data-analysis", "title": "Análisis de datos", "area": "quant", "file": null },
-    { "id": "writing-issue", "title": "Analytical Writing", "area": "writing", "file": null }
-  ]
+ "topics": [
+  {
+   "id": "vocabulary",
+   "title": "Vocabulario",
+   "area": "verbal",
+   "file": "data/vocabulary.json"
+  },
+  {
+   "id": "text-completion",
+   "title": "Text Completion",
+   "area": "verbal",
+   "file": null
+  },
+  {
+   "id": "sentence-equivalence",
+   "title": "Sentence Equivalence",
+   "area": "verbal",
+   "file": null
+  },
+  {
+   "id": "reading-comprehension",
+   "title": "Reading Comprehension",
+   "area": "verbal",
+   "file": null
+  },
+  {
+   "id": "arithmetic",
+   "title": "Aritmética",
+   "area": "quant",
+   "file": "data/arithmetic.json"
+  },
+  {
+   "id": "algebra",
+   "title": "Álgebra",
+   "area": "quant",
+   "file": null
+  },
+  {
+   "id": "geometry",
+   "title": "Geometría",
+   "area": "quant",
+   "file": null
+  },
+  {
+   "id": "data-analysis",
+   "title": "Análisis de datos",
+   "area": "quant",
+   "file": null
+  },
+  {
+   "id": "writing-issue",
+   "title": "Analytical Writing",
+   "area": "writing",
+   "file": null
+  }
+ ]
 }

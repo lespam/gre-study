@@ -41,3 +41,14 @@ main{max-width:640px;margin:0 auto;padding:16px 16px calc(24px + env(safe-area-i
 textarea{width:100%;min-height:120px;background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:12px;padding:10px;font:14px monospace}
 h2{font-size:1.1rem;margin:20px 0 8px}
 button:focus-visible{outline:3px solid var(--primary);outline-offset:2px}
+.opt{display:flex;gap:10px;width:100%;min-height:56px;margin-bottom:8px;padding:12px 14px;text-align:left;font:inherit;color:var(--text);background:var(--card);border:2px solid var(--line);border-radius:14px}
+.opt.sel{border-color:var(--primary)}
+.opt.ok{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 15%,var(--card))}
+.opt.bad{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 15%,var(--card))}
+.opt:disabled{color:var(--text)}
+.stem{font-size:1.1rem}.passage{font-size:.95rem}
+.qc{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}.qc div{background:var(--bg);border-radius:10px;padding:8px}
+.num{width:100%;min-height:56px;padding:10px 14px;font:inherit;font-size:1.3rem;color:var(--text);background:var(--card);border:2px solid var(--line);border-radius:14px}
+.fb{border-width:2px}.okc{border-color:var(--ok)}.badc{border-color:var(--bad)}.fb ul{padding-left:18px;margin:6px 0 0}
+.ex2{background:var(--bg)}
+.dots{display:flex;gap:8px;margin-top:8px}.dot{width:28px;height:28px;border-radius:50%;background:var(--line)}.dot.on{background:var(--primary)}

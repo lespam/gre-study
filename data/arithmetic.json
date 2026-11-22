@@ -1,0 +1,122 @@
+{
+ "topic": "arithmetic",
+ "title": "Aritmética",
+ "version": 1,
+ "items": [
+  {
+   "id": "arith-pct-L1",
+   "type": "lesson",
+   "topic": "arithmetic",
+   "difficulty": 1,
+   "title": "Porcentajes",
+   "body": "Un porcentaje es una fracción sobre 100. Para hallar p% de N, multiplica N por p/100. Un aumento de p% multiplica por (1 + p/100) y una disminución por (1 − p/100). Un aumento y una disminución del mismo porcentaje no se cancelan, porque se aplican sobre bases distintas.",
+   "example": "Un precio de 200 sube 10% y luego baja 10%. Sube: 200 × 1.10 = 220. Baja: 220 × 0.90 = 198. Termina en 198, no en 200."
+  },
+  {
+   "id": "arith-pct-01",
+   "type": "mc",
+   "topic": "arithmetic",
+   "difficulty": 1,
+   "stem": "What is 15% of 240?",
+   "choices": [
+    "24",
+    "36",
+    "40",
+    "48"
+   ],
+   "answer": 1,
+   "hint": "10% de 240 es 24; 5% es la mitad de eso.",
+   "explanation": "15% de 240 = 0.15 × 240 = 36 (24 + 12).",
+   "whyWrong": [
+    "24 es el 10%; te faltó sumar el 5%.",
+    null,
+    "40 no corresponde a ningún paso del cálculo.",
+    "48 es el 20% de 240."
+   ]
+  },
+  {
+   "id": "arith-pct-02",
+   "type": "mc",
+   "topic": "arithmetic",
+   "difficulty": 2,
+   "stem": "A jacket costs $60. It is discounted by 30%, and then the discounted price is reduced by a further 10%. What is the final price?",
+   "choices": [
+    "$36.00",
+    "$37.80",
+    "$38.00",
+    "$42.00"
+   ],
+   "answer": 1,
+   "hint": "Aplica cada descuento por separado sobre el precio nuevo.",
+   "explanation": "60 × 0.70 = 42; luego 42 × 0.90 = 37.80.",
+   "whyWrong": [
+    "$36.00 sale de sumar los descuentos (40%), pero el 10% se aplica al precio ya rebajado.",
+    null,
+    "$38.00 no sale de ningún cálculo correcto.",
+    "$42.00 es el precio solo con el primer descuento."
+   ]
+  },
+  {
+   "id": "arith-pct-03",
+   "type": "numeric",
+   "topic": "arithmetic",
+   "difficulty": 1,
+   "stem": "A quantity increases from 50 to 65. By what percent did it increase?",
+   "answer": 30,
+   "tolerance": 0,
+   "hint": "Aumento ÷ valor original.",
+   "explanation": "(65 − 50) / 50 = 0.30, es decir 30%. El porcentaje de cambio se calcula sobre el valor original."
+  },
+  {
+   "id": "arith-pct-04",
+   "type": "qc",
+   "topic": "arithmetic",
+   "difficulty": 2,
+   "stem": "Compare the two quantities.",
+   "quantityA": "30% of 80",
+   "quantityB": "80% of 30",
+   "answer": 2,
+   "hint": "Escribe ambos como productos.",
+   "explanation": "0.30 × 80 = 24 y 0.80 × 30 = 24. En general p% de N = N% de p, porque ambos son p × N / 100."
+  },
+  {
+   "id": "arith-pct-05",
+   "type": "multi",
+   "topic": "arithmetic",
+   "difficulty": 2,
+   "stem": "Which of the following are equal to 40% of 150?",
+   "choices": [
+    "60",
+    "0.4 × 150",
+    "150 × 2/5",
+    "90",
+    "40/150"
+   ],
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "hint": "40% = 0.4 = 2/5.",
+   "explanation": "40% de 150 = 60, y 0.4 × 150 y 150 × 2/5 son la misma operación.",
+   "whyWrong": [
+    null,
+    null,
+    null,
+    "90 es el 60% de 150.",
+    "40/150 ≈ 0.267 no usa 150 como factor del porcentaje."
+   ]
+  },
+  {
+   "id": "arith-pct-06",
+   "type": "numeric",
+   "topic": "arithmetic",
+   "difficulty": 2,
+   "stem": "A price of 80 rises by 25% and then falls by 25%. What is the final price?",
+   "answer": 75,
+   "tolerance": 0,
+   "hint": "No se cancelan: calcula cada paso.",
+   "explanation": "80 × 1.25 = 100; luego 100 × 0.75 = 75."
+  }
+ ]
+}

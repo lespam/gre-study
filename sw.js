@@ -1,7 +1,7 @@
 // Cambia VERSION cuando edites archivos de la app para forzar actualización.
-const VERSION = 'gre-study-v1';
+const VERSION = 'gre-study-v2';
 const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'manifest.json',
-  'icons/icon-192.png', 'icons/icon-512.png', 'data/index.json', 'data/vocabulary.json'];
+  'icons/icon-192.png', 'icons/icon-512.png', 'data/index.json', 'data/vocabulary.json', 'data/arithmetic.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));

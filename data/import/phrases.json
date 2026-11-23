@@ -1,0 +1,205 @@
+{
+ "version": 1,
+ "phrases": [
+  {
+   "id": "ph-1-01",
+   "category": "Tesis",
+   "text": "I contend that the claim is only partially valid, since [reason]."
+  },
+  {
+   "id": "ph-1-02",
+   "category": "Tesis",
+   "text": "Although the statement has merit, I ultimately maintain that [position]."
+  },
+  {
+   "id": "ph-1-03",
+   "category": "Tesis",
+   "text": "I strongly agree with the claim because [reason], though certain exceptions apply."
+  },
+  {
+   "id": "ph-1-04",
+   "category": "Tesis",
+   "text": "The assertion overlooks the fact that [counterpoint]; therefore, I disagree."
+  },
+  {
+   "id": "ph-1-05",
+   "category": "Tesis",
+   "text": "In my view, the claim holds true only when [condition]."
+  },
+  {
+   "id": "ph-1-06",
+   "category": "Tesis",
+   "text": "A careful analysis suggests that [thesis]."
+  },
+  {
+   "id": "ph-1-07",
+   "category": "Tesis",
+   "text": "While it is tempting to believe that [common view], the reality is more nuanced."
+  },
+  {
+   "id": "ph-1-08",
+   "category": "Tesis",
+   "text": "This essay will argue that [thesis] by examining [Ex 1] and [Ex 2]."
+  },
+  {
+   "id": "ph-1-09",
+   "category": "Tesis",
+   "text": "The claim is compelling in principle, yet flawed in practice."
+  },
+  {
+   "id": "ph-1-10",
+   "category": "Tesis",
+   "text": "I would argue that the speaker’s position is defensible but incomplete."
+  },
+  {
+   "id": "ph-2-01",
+   "category": "Concesión/Refutación",
+   "text": "Admittedly, [concession]; nevertheless, [rebuttal]."
+  },
+  {
+   "id": "ph-2-02",
+   "category": "Concesión/Refutación",
+   "text": "Critics might object that [objection]. However, this overlooks [flaw]."
+  },
+  {
+   "id": "ph-2-03",
+   "category": "Concesión/Refutación",
+   "text": "It is true that [concession], but this does not negate [main point]."
+  },
+  {
+   "id": "ph-2-04",
+   "category": "Concesión/Refutación",
+   "text": "Granted, [opposing point]; still, [your point] carries greater weight."
+  },
+  {
+   "id": "ph-2-05",
+   "category": "Concesión/Refutación",
+   "text": "Skeptics could contend that [view]; this argument, however, falls short because [reason]."
+  },
+  {
+   "id": "ph-2-06",
+   "category": "Concesión/Refutación",
+   "text": "On the other hand, it can be argued that [alternative]."
+  },
+  {
+   "id": "ph-2-07",
+   "category": "Concesión/Refutación",
+   "text": "One might counter that [counterclaim], but such a view fails to account for [factor]."
+  },
+  {
+   "id": "ph-2-08",
+   "category": "Concesión/Refutación",
+   "text": "Although [opposing view] has some validity, it ignores [crucial element]."
+  },
+  {
+   "id": "ph-2-09",
+   "category": "Concesión/Refutación",
+   "text": "This objection, while understandable, rests on the questionable assumption that [assumption]."
+  },
+  {
+   "id": "ph-2-10",
+   "category": "Concesión/Refutación",
+   "text": "Even so, this exception only highlights [how the thesis still holds]."
+  },
+  {
+   "id": "ph-3-01",
+   "category": "Evidencia",
+   "text": "A case in point is [example]."
+  },
+  {
+   "id": "ph-3-02",
+   "category": "Evidencia",
+   "text": "Consider the example of [figure/event]."
+  },
+  {
+   "id": "ph-3-03",
+   "category": "Evidencia",
+   "text": "History offers a telling illustration: [example]."
+  },
+  {
+   "id": "ph-3-04",
+   "category": "Evidencia",
+   "text": "For instance, [specific example] demonstrates that [point]."
+  },
+  {
+   "id": "ph-3-05",
+   "category": "Evidencia",
+   "text": "This is exemplified by [example], where [outcome]."
+  },
+  {
+   "id": "ph-3-06",
+   "category": "Evidencia",
+   "text": "Research in [field] has shown that [finding]."
+  },
+  {
+   "id": "ph-3-07",
+   "category": "Evidencia",
+   "text": "The experience of [person/country] underscores [point]."
+  },
+  {
+   "id": "ph-3-08",
+   "category": "Evidencia",
+   "text": "To illustrate, [example]."
+  },
+  {
+   "id": "ph-3-09",
+   "category": "Evidencia",
+   "text": "Evidence of this can be seen in [field], where [detail]."
+  },
+  {
+   "id": "ph-3-10",
+   "category": "Evidencia",
+   "text": "Consequently, this demonstrates [tie back to thesis]."
+  },
+  {
+   "id": "ph-4-01",
+   "category": "Conclusión",
+   "text": "In conclusion, while valid arguments exist, [view] demonstrates [thesis]."
+  },
+  {
+   "id": "ph-4-02",
+   "category": "Conclusión",
+   "text": "Ultimately, recognizing [insight] is crucial for [broader implication]."
+  },
+  {
+   "id": "ph-4-03",
+   "category": "Conclusión",
+   "text": "Taken together, these examples reveal that [core insight]."
+  },
+  {
+   "id": "ph-4-04",
+   "category": "Conclusión",
+   "text": "In the final analysis, [restated thesis]."
+  },
+  {
+   "id": "ph-4-05",
+   "category": "Conclusión",
+   "text": "Thus, although [concession], the weight of evidence favors [position]."
+  },
+  {
+   "id": "ph-4-06",
+   "category": "Conclusión",
+   "text": "All things considered, the claim is best understood as [nuanced view]."
+  },
+  {
+   "id": "ph-4-07",
+   "category": "Conclusión",
+   "text": "By examining both [Ex 1] and [Ex 2], it becomes clear that [insight]."
+  },
+  {
+   "id": "ph-4-08",
+   "category": "Conclusión",
+   "text": "The broader lesson is that [implication for society]."
+  },
+  {
+   "id": "ph-4-09",
+   "category": "Conclusión",
+   "text": "Therefore, [restate stance], and society would do well to [recommendation]."
+  },
+  {
+   "id": "ph-4-10",
+   "category": "Conclusión",
+   "text": "In sum, the claim holds only when [condition], which is why [final thought]."
+  }
+ ]
+}

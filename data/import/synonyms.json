@@ -1,0 +1,386 @@
+{
+ "version": 1,
+ "synonyms": [
+  {
+   "id": "sy-01",
+   "basic": "show",
+   "academic": [
+    "demonstrate",
+    "illustrate",
+    "underscore",
+    "reveal"
+   ]
+  },
+  {
+   "id": "sy-02",
+   "basic": "help",
+   "academic": [
+    "facilitate",
+    "foster",
+    "aid",
+    "bolster"
+   ]
+  },
+  {
+   "id": "sy-03",
+   "basic": "use",
+   "academic": [
+    "utilize",
+    "employ",
+    "leverage"
+   ]
+  },
+  {
+   "id": "sy-04",
+   "basic": "get",
+   "academic": [
+    "obtain",
+    "acquire",
+    "attain"
+   ]
+  },
+  {
+   "id": "sy-05",
+   "basic": "make",
+   "academic": [
+    "generate",
+    "produce",
+    "construct"
+   ]
+  },
+  {
+   "id": "sy-06",
+   "basic": "think",
+   "academic": [
+    "contend",
+    "posit",
+    "maintain",
+    "argue"
+   ]
+  },
+  {
+   "id": "sy-07",
+   "basic": "say",
+   "academic": [
+    "assert",
+    "claim",
+    "state"
+   ]
+  },
+  {
+   "id": "sy-08",
+   "basic": "big",
+   "academic": [
+    "substantial",
+    "considerable",
+    "significant"
+   ]
+  },
+  {
+   "id": "sy-09",
+   "basic": "small",
+   "academic": [
+    "negligible",
+    "marginal",
+    "minor"
+   ]
+  },
+  {
+   "id": "sy-10",
+   "basic": "important",
+   "academic": [
+    "crucial",
+    "pivotal",
+    "paramount",
+    "vital"
+   ]
+  },
+  {
+   "id": "sy-11",
+   "basic": "good",
+   "academic": [
+    "beneficial",
+    "advantageous",
+    "favorable"
+   ]
+  },
+  {
+   "id": "sy-12",
+   "basic": "bad",
+   "academic": [
+    "detrimental",
+    "deleterious",
+    "adverse"
+   ]
+  },
+  {
+   "id": "sy-13",
+   "basic": "change",
+   "academic": [
+    "alter",
+    "modify",
+    "transform"
+   ]
+  },
+  {
+   "id": "sy-14",
+   "basic": "start",
+   "academic": [
+    "initiate",
+    "commence",
+    "launch"
+   ]
+  },
+  {
+   "id": "sy-15",
+   "basic": "end",
+   "academic": [
+    "conclude",
+    "terminate",
+    "cease"
+   ]
+  },
+  {
+   "id": "sy-16",
+   "basic": "need",
+   "academic": [
+    "require",
+    "necessitate",
+    "demand"
+   ]
+  },
+  {
+   "id": "sy-17",
+   "basic": "try",
+   "academic": [
+    "attempt",
+    "endeavor",
+    "strive"
+   ]
+  },
+  {
+   "id": "sy-18",
+   "basic": "because",
+   "academic": [
+    "since",
+    "owing to",
+    "due to",
+    "given that"
+   ]
+  },
+  {
+   "id": "sy-19",
+   "basic": "but",
+   "academic": [
+    "however",
+    "nevertheless",
+    "nonetheless",
+    "yet"
+   ]
+  },
+  {
+   "id": "sy-20",
+   "basic": "also",
+   "academic": [
+    "moreover",
+    "furthermore",
+    "in addition"
+   ]
+  },
+  {
+   "id": "sy-21",
+   "basic": "so",
+   "academic": [
+    "therefore",
+    "consequently",
+    "thus",
+    "hence"
+   ]
+  },
+  {
+   "id": "sy-22",
+   "basic": "show up",
+   "academic": [
+    "emerge",
+    "appear",
+    "arise"
+   ]
+  },
+  {
+   "id": "sy-23",
+   "basic": "look at",
+   "academic": [
+    "examine",
+    "scrutinize",
+    "analyze"
+   ]
+  },
+  {
+   "id": "sy-24",
+   "basic": "find out",
+   "academic": [
+    "determine",
+    "ascertain",
+    "discover"
+   ]
+  },
+  {
+   "id": "sy-25",
+   "basic": "think about",
+   "academic": [
+    "consider",
+    "contemplate",
+    "weigh"
+   ]
+  },
+  {
+   "id": "sy-26",
+   "basic": "increase",
+   "academic": [
+    "escalate",
+    "amplify",
+    "augment",
+    "surge"
+   ]
+  },
+  {
+   "id": "sy-27",
+   "basic": "decrease",
+   "academic": [
+    "diminish",
+    "decline",
+    "curtail",
+    "dwindle"
+   ]
+  },
+  {
+   "id": "sy-28",
+   "basic": "problem",
+   "academic": [
+    "challenge",
+    "obstacle",
+    "predicament",
+    "dilemma"
+   ]
+  },
+  {
+   "id": "sy-29",
+   "basic": "idea",
+   "academic": [
+    "notion",
+    "concept",
+    "premise"
+   ]
+  },
+  {
+   "id": "sy-30",
+   "basic": "way",
+   "academic": [
+    "method",
+    "approach",
+    "strategy"
+   ]
+  },
+  {
+   "id": "sy-31",
+   "basic": "lots of",
+   "academic": [
+    "numerous",
+    "a multitude of",
+    "myriad"
+   ]
+  },
+  {
+   "id": "sy-32",
+   "basic": "hard",
+   "academic": [
+    "arduous",
+    "demanding",
+    "formidable"
+   ]
+  },
+  {
+   "id": "sy-33",
+   "basic": "easy",
+   "academic": [
+    "straightforward",
+    "effortless",
+    "simple"
+   ]
+  },
+  {
+   "id": "sy-34",
+   "basic": "enough",
+   "academic": [
+    "sufficient",
+    "adequate"
+   ]
+  },
+  {
+   "id": "sy-35",
+   "basic": "about",
+   "academic": [
+    "approximately",
+    "roughly",
+    "concerning"
+   ]
+  },
+  {
+   "id": "sy-36",
+   "basic": "keep",
+   "academic": [
+    "maintain",
+    "retain",
+    "preserve"
+   ]
+  },
+  {
+   "id": "sy-37",
+   "basic": "stop",
+   "academic": [
+    "halt",
+    "prevent",
+    "curb",
+    "impede"
+   ]
+  },
+  {
+   "id": "sy-38",
+   "basic": "give",
+   "academic": [
+    "provide",
+    "furnish",
+    "grant",
+    "confer"
+   ]
+  },
+  {
+   "id": "sy-39",
+   "basic": "clear",
+   "academic": [
+    "evident",
+    "apparent",
+    "manifest",
+    "lucid"
+   ]
+  },
+  {
+   "id": "sy-40",
+   "basic": "cause",
+   "academic": [
+    "engender",
+    "precipitate",
+    "give rise to"
+   ]
+  },
+  {
+   "id": "sy-41",
+   "basic": "prove",
+   "academic": [
+    "substantiate",
+    "corroborate",
+    "validate"
+   ]
+  }
+ ]
+}

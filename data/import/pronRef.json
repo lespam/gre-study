@@ -1,0 +1,383 @@
+{
+ "version": 1,
+ "pronRef": [
+  {
+   "id": "pr-articulatory",
+   "title": "Sistema articulatorio",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Son las partes del cuerpo que usamos para producir sonidos (UC Irvine, International Programs)."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "**lips** (labios)",
+      "**teeth** (dientes)",
+      "**alveolar ridge** (cresta alveolar, detrás de los dientes superiores)",
+      "**hard palate** (paladar duro)",
+      "**soft palate** (paladar blando, velo)",
+      "**tongue** (lengua)",
+      "**jaw** (mandíbula)",
+      "**nasal cavity** (cavidad nasal)",
+      "**vocal cords** (cuerdas vocales)"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "El aire viaja *to the lungs* (pulmones) y el alimento *to the stomach* (estómago). Las **cuerdas vocales** vibran en los sonidos *voiced* y no vibran en los *voiceless*."
+    },
+    {
+     "type": "p",
+     "text": "**Truco:** toca tu garganta al decir /z/ (vibra) y /s/ (no vibra)."
+    }
+   ]
+  },
+  {
+   "id": "pr-consonants",
+   "title": "Consonantes del inglés americano (dónde y cómo)",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Columnas: **dónde** se produce el sonido. Filas: **cómo** se produce. *voiced* = las cuerdas vocales vibran; *voiceless* = no vibran."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Cómo \\ Dónde",
+      "Bilabial (ambos labios)",
+      "Labiodental (dientes sup. + labio inf.)",
+      "Interdental (entre los dientes)",
+      "Alveolar (detrás de los dientes)",
+      "Palatal (techo de la boca)",
+      "Velar (fondo de la boca)",
+      "Glottal (garganta)"
+     ],
+     "rows": [
+      [
+       "**Stops** (popping sounds)",
+       "voiced: /b/ boy\nvoiceless: /p/ pie",
+       "—",
+       "—",
+       "voiced: /d/ dog\nvoiceless: /t/ toy",
+       "—",
+       "voiced: /g/ go\nvoiceless: /k/ kitchen",
+       "—"
+      ],
+      [
+       "**Fricatives** (hissing sounds)",
+       "—",
+       "voiced: /v/ van\nvoiceless: /f/ fish",
+       "voiced: /ð/ this\nvoiceless: /θ/ think",
+       "voiced: /z/ zoo\nvoiceless: /s/ sat",
+       "voiced: /ʒ/ beige\nvoiceless: /ʃ/ ship",
+       "—",
+       "voiceless: /h/ house"
+      ],
+      [
+       "**Affricates** (pop & hiss sounds)",
+       "—",
+       "—",
+       "—",
+       "—",
+       "voiced: /dʒ/ jam\nvoiceless: /tʃ/ chip",
+       "—",
+       "—"
+      ],
+      [
+       "**Nasals** (humming sounds)",
+       "voiced: /m/ map",
+       "—",
+       "—",
+       "voiced: /n/ no",
+       "—",
+       "voiced: /ŋ/ sing",
+       "—"
+      ],
+      [
+       "**Liquids & Glides** (flowing sounds)",
+       "voiced: /w/ wet",
+       "—",
+       "—",
+       "voiced: /l/ lamp",
+       "voiced: /r/ red\nvoiced: /y/ yes",
+       "—",
+       "—"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pr-symbols",
+   "title": "Símbolos fonémicos de consonantes (con ejemplos)",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Cada símbolo representa un **sonido**, no una letra. Practica diciendo la palabra de ejemplo y aislando el sonido inicial (o el marcado)."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Voiceless",
+      "Ejemplo",
+      "Voiced",
+      "Ejemplo"
+     ],
+     "rows": [
+      [
+       "/p/",
+       "pair",
+       "/b/",
+       "bear"
+      ],
+      [
+       "/t/",
+       "town",
+       "/d/",
+       "down"
+      ],
+      [
+       "/k/",
+       "came",
+       "/g/",
+       "game"
+      ],
+      [
+       "/f/",
+       "fan",
+       "/v/",
+       "van"
+      ],
+      [
+       "/θ/",
+       "thick",
+       "/ð/",
+       "this"
+      ],
+      [
+       "/s/",
+       "sue",
+       "/z/",
+       "zoo"
+      ],
+      [
+       "/ʃ/",
+       "shop",
+       "/ʒ/",
+       "beige"
+      ],
+      [
+       "/h/",
+       "happy",
+       "—",
+       "—"
+      ],
+      [
+       "/tʃ/",
+       "chalk",
+       "/dʒ/",
+       "join"
+      ],
+      [
+       "—",
+       "—",
+       "/m/",
+       "must"
+      ],
+      [
+       "—",
+       "—",
+       "/n/",
+       "never"
+      ],
+      [
+       "—",
+       "—",
+       "/ŋ/",
+       "long"
+      ],
+      [
+       "—",
+       "—",
+       "/l/",
+       "lock"
+      ],
+      [
+       "—",
+       "—",
+       "/r/",
+       "rock"
+      ],
+      [
+       "—",
+       "—",
+       "/w/",
+       "wet"
+      ],
+      [
+       "—",
+       "—",
+       "/y/",
+       "yes"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "**Ojo (hispanohablantes):** /θ/ y /ð/ con la lengua entre los dientes; /ʒ/ (*beige*) y /dʒ/ (*join*) no son /y/ ni /ch/; /h/ es suave, no /j/ española; /r/ americana no se vibra."
+    }
+   ]
+  },
+  {
+   "id": "pr-movie-night",
+   "title": "Shadowing: Movie Night (guion + glosario)",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**Instrucciones:** mientras escuchas el video *Shadowing a Conversation*, usa este guion para repetir el diálogo. Subraya los sonidos más difíciles para enfocarte en ellos. Las barras (/) marcan pausas."
+    },
+    {
+     "type": "dialogue",
+     "lines": [
+      {
+       "who": "Emily",
+       "text": "Hey, hey, hey. Do you want to see a movie tonight? /"
+      },
+      {
+       "who": "Helen",
+       "text": "Maybe. What kind of movie? /"
+      },
+      {
+       "who": "Emily",
+       "text": "Uh, well, here’s an adventure movie that looks good. / It’s about **explorers** fighting wild animals in the **wilderness**. /"
+      },
+      {
+       "who": "Helen",
+       "text": "Mmm, I don’t know. That sounds kind of **violent**. / Is there something else playing? /"
+      },
+      {
+       "who": "Emily",
+       "text": "Mmm, oh, OK. / How about this one? / It’s a love story called *My Vampire Valentine*. /"
+      },
+      {
+       "who": "Helen",
+       "text": "*My Vampire Valentine*? / Really? / That’s just plain weird. / Who’s going to fall in love with a vampire? /"
+      },
+      {
+       "who": "Emily",
+       "text": "I don’t know. / Vampires are really popular right now. /"
+      },
+      {
+       "who": "Helen",
+       "text": "Forget it. / Let’s not watch a movie. / Let’s just **grab dinner** instead. /"
+      },
+      {
+       "who": "Emily",
+       "text": "Oh, OK. / Do you want to go to Patty’s Potato Palace? /"
+      },
+      {
+       "who": "Helen",
+       "text": "Of course! Yay! /"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "**Glosario**"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "**Explorers** (n): people who travel to new places in order to learn more about them",
+      "**Wilderness** (n): a totally natural area where few people live",
+      "**Violent** (adj): using physical force to hurt or damage someone or something",
+      "**Grab dinner** (idiom): to get dinner quickly, usually at an informal restaurant"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pr-speaking-rubric",
+   "title": "Speaking Assignment (Módulo 1) y rúbrica de autoevaluación",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**Directions**"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "Usa el guion *Shadowing a Conversation* para practicar la conversación. Repítela varias veces hasta sentirte seguro/a.",
+      "Después de practicar, graba tu voz con el celular o la computadora mientras lees la conversación. ¡Presta atención a tu pronunciación!",
+      "Escucha tu grabación y date una puntuación en cada punto de la rúbrica."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "**Self Evaluation Rubric**"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Pregunta",
+      "Yes (4)",
+      "Mostly (3)",
+      "A little (2)",
+      "Not at all (1)"
+     ],
+     "rows": [
+      [
+       "1. Were your consonant sounds clear?",
+       "",
+       "",
+       "",
+       ""
+      ],
+      [
+       "2. Do you think other people would be able to understand your pronunciation?",
+       "",
+       "",
+       "",
+       ""
+      ],
+      [
+       "3. Do you feel confident about your pronunciation of the conversation?",
+       "",
+       "",
+       "",
+       ""
+      ],
+      [
+       "**Total Points:**",
+       "",
+       "",
+       "",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "**Think about it!**"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "Which consonant sounds were most difficult for you?",
+      "Which parts of the conversation were hardest to say?",
+      "What can you do to improve your pronunciation of the conversation?"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "**Remember:** If you’re not satisfied with your recording, try again!"
+    }
+   ]
+  }
+ ]
+}

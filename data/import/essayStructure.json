@@ -1,0 +1,85 @@
+{
+ "version": 1,
+ "essayStructure": [
+  {
+   "id": "es-1",
+   "title": "Para 1: Introduction",
+   "goal": "Reconoce la complejidad, declara una **POSICIÓN** clara (tesis) y presenta los **PUNTOS PRINCIPALES**.",
+   "points": [
+    {
+     "label": "Hook/Context",
+     "text": "Enmarca el tema y su importancia."
+    },
+    {
+     "label": "Thesis Statement",
+     "text": "Postura clara."
+    },
+    {
+     "label": "Roadmap",
+     "text": "Menciona 2 ejemplos o perspectivas."
+    }
+   ],
+   "template": "While critics often argue that [common view], a closer examination reveals [nuanced thesis]. This is evident in [Field/Ex 1] and [Field/Ex 2]. Therefore, [restate stance]."
+  },
+  {
+   "id": "es-2",
+   "title": "Para 2: Body 1 (Primary Argument)",
+   "goal": "Presenta el argumento **MÁS FUERTE** con un ejemplo **DETALLADO Y CONCRETO**.",
+   "points": [
+    {
+     "label": "Topic Sentence",
+     "text": "Introduce la primera razón."
+    },
+    {
+     "label": "Specific Example",
+     "text": "Concreto y bien desarrollado (historia, literatura, ciencia)."
+    },
+    {
+     "label": "Explanation/Analysis",
+     "text": "Cómo el ejemplo prueba el punto y conecta con la tesis."
+    }
+   ],
+   "template": "To begin with, [argument]. Consider [specific figure/event]. [Describe what happened & relate to argument]. Consequently, this demonstrates [tie back to thesis]."
+  },
+  {
+   "id": "es-3",
+   "title": "Para 3: Body 2 (Counterargument/Nuance)",
+   "goal": "Atiende la perspectiva contraria o un matiz alternativo. Demuestra **PENSAMIENTO CRÍTICO**.",
+   "points": [
+    {
+     "label": "Topic/Transition Sentence",
+     "text": "Introduce el segundo punto o la contravisión."
+    },
+    {
+     "label": "Alternative Example/Rebuttal",
+     "text": "Da un segundo ejemplo O explica la limitación del contraargumento."
+    },
+    {
+     "label": "Synthesis",
+     "text": "Vuelve a unir el punto con el argumento general."
+    }
+   ],
+   "template": "On the other hand, it can be argued that [acknowledge limitation]. For instance, in [modern tech/lit], [counter-example]. However, this exception highlights [how original stance still holds]."
+  },
+  {
+   "id": "es-4",
+   "title": "Para 4: Conclusion",
+   "goal": "Resume los puntos, **reformula la tesis** y deja un **PENSAMIENTO FINAL FUERTE**.",
+   "points": [
+    {
+     "label": "Restate Thesis",
+     "text": "Reformula la postura original."
+    },
+    {
+     "label": "Summary",
+     "text": "Recapitula brevemente las ideas."
+    },
+    {
+     "label": "Broader Implication",
+     "text": "Reflexión final sobre la importancia del tema."
+    }
+   ],
+   "template": "In conclusion, while valid arguments exist, [view] demonstrates [restated thesis]. By examining both [Example 1] and [Example 2], it becomes clear that [summarize core insight]. Ultimately, recognizing this is crucial for [final broad implication]."
+  }
+ ]
+}

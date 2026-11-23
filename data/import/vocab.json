@@ -1,0 +1,805 @@
+{
+ "version": 1,
+ "vocab": [
+  {
+   "id": "gx-001",
+   "word": "abate",
+   "definition": "to become less intense or widespread",
+   "example": "The storm began to abate by midnight.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-002",
+   "word": "abjure",
+   "definition": "to formally renounce or give up",
+   "example": "He abjured his former allegiance to the party.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-003",
+   "word": "abscond",
+   "definition": "to leave quickly and secretly to avoid capture",
+   "example": "The treasurer absconded with the funds.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-004",
+   "word": "accretion",
+   "definition": "gradual accumulation or growth",
+   "example": "The island formed by slow accretion of sediment.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-005",
+   "word": "aggrandize",
+   "definition": "to increase the power or reputation of",
+   "example": "The memoir aggrandizes the author’s role.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-006",
+   "word": "anachronism",
+   "definition": "something out of its proper time period",
+   "example": "A cell phone in a medieval film is an anachronism.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-007",
+   "word": "antipathy",
+   "definition": "a deep-seated dislike",
+   "example": "She felt a strong antipathy toward flattery.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-008",
+   "word": "approbation",
+   "definition": "approval or praise",
+   "example": "The plan won the approbation of the board.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-009",
+   "word": "arcane",
+   "definition": "known only to a few; mysterious",
+   "example": "The contract was full of arcane legal terms.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-010",
+   "word": "ascetic",
+   "definition": "practicing severe self-discipline, avoiding luxury",
+   "example": "He led an ascetic life in a tiny cabin.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-011",
+   "word": "attenuate",
+   "definition": "to weaken or reduce in force",
+   "example": "Distance attenuates the signal.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-012",
+   "word": "audacious",
+   "definition": "boldly daring or shocking",
+   "example": "It was an audacious plan to cross the desert.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-013",
+   "word": "bellicose",
+   "definition": "eager to fight; aggressive",
+   "example": "The leader’s bellicose rhetoric alarmed neighbors.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-014",
+   "word": "burgeon",
+   "definition": "to grow or flourish rapidly",
+   "example": "The tech sector began to burgeon in the 1990s.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-015",
+   "word": "cacophony",
+   "definition": "harsh, jarring mixture of sounds",
+   "example": "A cacophony of horns filled the street.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-016",
+   "word": "canonical",
+   "definition": "accepted as authoritative or standard",
+   "example": "It is now a canonical text in the field.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-017",
+   "word": "caustic",
+   "definition": "sarcastic and biting; corrosive",
+   "example": "Her caustic wit left him speechless.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-018",
+   "word": "censure",
+   "definition": "to express formal disapproval of",
+   "example": "The senator was censured for misconduct.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-019",
+   "word": "chicanery",
+   "definition": "deception through clever trickery",
+   "example": "The deal was won through legal chicanery.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-020",
+   "word": "coalesce",
+   "definition": "to come together to form one whole",
+   "example": "Disparate groups coalesced into a movement.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-021",
+   "word": "complaisant",
+   "definition": "willing to please; agreeable",
+   "example": "A complaisant assistant never objected.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-022",
+   "word": "conflate",
+   "definition": "to combine two things into one, confusingly",
+   "example": "Do not conflate correlation with causation.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-023",
+   "word": "contentious",
+   "definition": "causing or likely to cause argument",
+   "example": "Tax reform is a contentious issue.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-024",
+   "word": "contrite",
+   "definition": "feeling remorse for wrongdoing",
+   "example": "The contrite student apologized to the class.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-025",
+   "word": "convoluted",
+   "definition": "extremely complex and difficult to follow",
+   "example": "The plot was too convoluted to summarize.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-026",
+   "word": "culpable",
+   "definition": "deserving blame",
+   "example": "The company was culpable for the spill.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-027",
+   "word": "dearth",
+   "definition": "a scarcity or lack",
+   "example": "There is a dearth of reliable data.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-028",
+   "word": "debunk",
+   "definition": "to expose as false or exaggerated",
+   "example": "Scientists debunked the miracle cure.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-029",
+   "word": "decorum",
+   "definition": "dignified, proper behavior",
+   "example": "The judge demanded decorum in court.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-030",
+   "word": "demur",
+   "definition": "to raise objections; hesitate",
+   "example": "He demurred when asked to lead the project.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-031",
+   "word": "denigrate",
+   "definition": "to criticize unfairly; belittle",
+   "example": "Do not denigrate the efforts of others.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-032",
+   "word": "deride",
+   "definition": "to mock or ridicule",
+   "example": "Critics derided the proposal as naive.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-033",
+   "word": "didactic",
+   "definition": "intended to teach, often too moralistic",
+   "example": "The novel is overly didactic.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-034",
+   "word": "diffuse",
+   "definition": "spread out; not concentrated",
+   "example": "The light was diffuse and soft.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-035",
+   "word": "dilettante",
+   "definition": "a person with superficial interest in an art or field",
+   "example": "He dabbled as a dilettante painter.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-036",
+   "word": "discordant",
+   "definition": "disagreeing or clashing",
+   "example": "The committee produced discordant recommendations.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-037",
+   "word": "disingenuous",
+   "definition": "not candid; insincere",
+   "example": "It is disingenuous to claim you were unaware.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-038",
+   "word": "dissemble",
+   "definition": "to hide one’s true feelings or intentions",
+   "example": "He dissembled to avoid revealing the plan.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-039",
+   "word": "efficacy",
+   "definition": "the ability to produce a desired result",
+   "example": "The efficacy of the drug was confirmed.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-040",
+   "word": "effrontery",
+   "definition": "shameless boldness",
+   "example": "She had the effrontery to ask for a raise.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-041",
+   "word": "elucidate",
+   "definition": "to make clear; explain",
+   "example": "Please elucidate your reasoning.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-042",
+   "word": "engender",
+   "definition": "to cause or give rise to",
+   "example": "Poverty can engender resentment.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-043",
+   "word": "enigmatic",
+   "definition": "mysterious and difficult to understand",
+   "example": "The painting’s enigmatic smile puzzled viewers.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-044",
+   "word": "ephemera",
+   "definition": "things that exist only briefly",
+   "example": "Collectors prize the ephemera of the era.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-045",
+   "word": "erudite",
+   "definition": "having great knowledge from study",
+   "example": "An erudite scholar, he quoted Latin freely.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-046",
+   "word": "esoteric",
+   "definition": "understood by only a small group",
+   "example": "The lecture was too esoteric for beginners.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-047",
+   "word": "exacerbate",
+   "definition": "to make worse",
+   "example": "Stress can exacerbate the symptoms.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-048",
+   "word": "exigent",
+   "definition": "urgent; demanding immediate attention",
+   "example": "Exigent circumstances required quick action.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-049",
+   "word": "extant",
+   "definition": "still in existence",
+   "example": "Few extant manuscripts survive.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-050",
+   "word": "facetious",
+   "definition": "treating serious matters with inappropriate humor",
+   "example": "His facetious remark annoyed the panel.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-051",
+   "word": "fervent",
+   "definition": "having intense, passionate feeling",
+   "example": "She is a fervent supporter of reform.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-052",
+   "word": "flout",
+   "definition": "to openly disregard a rule",
+   "example": "Drivers who flout the law risk fines.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-053",
+   "word": "fortuitous",
+   "definition": "happening by lucky chance",
+   "example": "Their meeting was entirely fortuitous.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-054",
+   "word": "fulminate",
+   "definition": "to protest or criticize loudly",
+   "example": "He fulminated against the new policy.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-055",
+   "word": "grandiloquent",
+   "definition": "pompous in language",
+   "example": "The grandiloquent speech bored the audience.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-056",
+   "word": "harangue",
+   "definition": "a long, aggressive speech",
+   "example": "The coach delivered a harangue at halftime.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-057",
+   "word": "hegemony",
+   "definition": "dominance of one group over others",
+   "example": "The empire’s hegemony lasted centuries.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-058",
+   "word": "idiosyncratic",
+   "definition": "peculiar to an individual",
+   "example": "Her idiosyncratic style is easy to spot.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-059",
+   "word": "immutable",
+   "definition": "unchanging over time",
+   "example": "Some believe the laws of nature are immutable.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-060",
+   "word": "impecunious",
+   "definition": "having little or no money",
+   "example": "The impecunious student lived on noodles.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-061",
+   "word": "impervious",
+   "definition": "not affected by; unable to be penetrated",
+   "example": "The coat is impervious to rain.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-062",
+   "word": "implacable",
+   "definition": "unable to be appeased",
+   "example": "He faced implacable opposition.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-063",
+   "word": "incontrovertible",
+   "definition": "impossible to deny",
+   "example": "The video was incontrovertible proof.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-064",
+   "word": "ingenuous",
+   "definition": "innocent and unsuspecting",
+   "example": "Her ingenuous questions disarmed everyone.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-065",
+   "word": "inimical",
+   "definition": "harmful or hostile",
+   "example": "Secrecy is inimical to trust.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-066",
+   "word": "insidious",
+   "definition": "gradually and subtly harmful",
+   "example": "An insidious disease, it often goes unnoticed.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-067",
+   "word": "intransigent",
+   "definition": "refusing to compromise",
+   "example": "Both sides remained intransigent.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-068",
+   "word": "inveterate",
+   "definition": "long-established; habitual",
+   "example": "He is an inveterate gambler.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-069",
+   "word": "judicious",
+   "definition": "showing good judgment",
+   "example": "A judicious use of resources saved the project.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-070",
+   "word": "lugubrious",
+   "definition": "mournful, often exaggeratedly",
+   "example": "He wore a lugubrious expression.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-071",
+   "word": "magnanimous",
+   "definition": "generous toward a rival or lesser person",
+   "example": "The winner was magnanimous in victory.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-072",
+   "word": "malleable",
+   "definition": "easily shaped or influenced",
+   "example": "Gold is a highly malleable metal.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-073",
+   "word": "mercurial",
+   "definition": "prone to sudden mood changes",
+   "example": "Her mercurial temper kept staff on edge.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-074",
+   "word": "meticulous",
+   "definition": "showing great attention to detail",
+   "example": "A meticulous editor, she caught every error.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-075",
+   "word": "munificent",
+   "definition": "very generous",
+   "example": "A munificent donor funded the library.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-076",
+   "word": "nefarious",
+   "definition": "wicked or criminal",
+   "example": "The nefarious scheme was exposed.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-077",
+   "word": "obdurate",
+   "definition": "stubbornly refusing to change",
+   "example": "The obdurate manager rejected all advice.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-078",
+   "word": "obfuscate",
+   "definition": "to make unclear or confusing",
+   "example": "Jargon can obfuscate the real issue.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-079",
+   "word": "obstreperous",
+   "definition": "noisy and difficult to control",
+   "example": "The obstreperous crowd ignored the guards.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-080",
+   "word": "paragon",
+   "definition": "a model of excellence",
+   "example": "She is a paragon of integrity.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-081",
+   "word": "parsimonious",
+   "definition": "extremely unwilling to spend",
+   "example": "A parsimonious host, he served only water.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-082",
+   "word": "pedantic",
+   "definition": "overly concerned with minor details or rules",
+   "example": "His pedantic corrections irritated colleagues.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-083",
+   "word": "pernicious",
+   "definition": "harmful in a gradual, subtle way",
+   "example": "Rumors had a pernicious effect on morale.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-084",
+   "word": "perspicacious",
+   "definition": "having keen insight",
+   "example": "A perspicacious analyst spotted the flaw.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-085",
+   "word": "placate",
+   "definition": "to calm or appease",
+   "example": "The manager tried to placate angry customers.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-086",
+   "word": "polemic",
+   "definition": "a strong written or spoken attack",
+   "example": "The essay is a polemic against censorship.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-087",
+   "word": "prescient",
+   "definition": "having knowledge of events before they happen",
+   "example": "Her prescient warning proved right.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-088",
+   "word": "prodigal",
+   "definition": "spending wastefully and recklessly",
+   "example": "The prodigal heir squandered his inheritance.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-089",
+   "word": "pugnacious",
+   "definition": "eager to fight or argue",
+   "example": "A pugnacious debater, he relished conflict.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-090",
+   "word": "recondite",
+   "definition": "little known; obscure",
+   "example": "The book explores recondite aspects of law.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-091",
+   "word": "recant",
+   "definition": "to publicly withdraw a statement or belief",
+   "example": "Under pressure, the witness recanted.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-092",
+   "word": "reticent",
+   "definition": "reluctant to speak or share",
+   "example": "He was reticent about his past.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-093",
+   "word": "sanguine",
+   "definition": "optimistic, especially in a bad situation",
+   "example": "She remained sanguine about the outcome.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-094",
+   "word": "sycophant",
+   "definition": "a person who flatters to gain advantage",
+   "example": "The CEO was surrounded by sycophants.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-095",
+   "word": "tenacious",
+   "definition": "persistent; not giving up",
+   "example": "A tenacious reporter, he pursued the story.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-096",
+   "word": "truculent",
+   "definition": "eager to argue or fight",
+   "example": "The truculent customer shouted at staff.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-097",
+   "word": "vacillate",
+   "definition": "to waver between choices",
+   "example": "She vacillated between the two offers.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-098",
+   "word": "vituperative",
+   "definition": "bitter and abusive (of speech)",
+   "example": "The debate turned vituperative.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-099",
+   "word": "volatile",
+   "definition": "liable to change rapidly or explode",
+   "example": "Oil prices are volatile.",
+   "notes": "",
+   "starred": false
+  },
+  {
+   "id": "gx-100",
+   "word": "winnow",
+   "definition": "to sort out the valuable from the worthless",
+   "example": "They winnowed the list to five candidates.",
+   "notes": "",
+   "starred": false
+  }
+ ]
+}

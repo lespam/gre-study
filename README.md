@@ -6,7 +6,8 @@ PWA para estudiar el GRE en el teléfono. HTML + CSS + JS vanilla, sin build, si
 ~1 h 58 min, 5 secciones: Analytical Writing (1 tarea "Issue", 30 min) · Verbal 12 preguntas/18 min y 15/23 min · Quant 12/21 min y 15/26 min. Verificar de nuevo en [ets.org](https://www.ets.org/gre/test-takers/general-test/prepare/test-structure.html) antes de usarlo en las fases de exámenes cronometrados.
 
 ## Estructura
-- `index.html`, `styles.css`, `app.js` — app
+- `index.html`, `styles.css`, `app.js` — app base
+- `extras.js` — pestañas Quant (4 modos), Verbal, Essay & Writing, Pronunciación y panel de datos (Ajustes). Datos del usuario en `localStorage["grestudy.v1"].extra` (`APP_DATA`)
 - `sw.js`, `manifest.json`, `icons/` — PWA/offline (sube `VERSION` en `sw.js` al cambiar archivos)
 - `data/index.json` — lista de temas (`file: null` = aún sin contenido)
 - `data/<tema>.json` — contenido de un tema

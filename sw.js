@@ -1,6 +1,6 @@
 // Cambia VERSION cuando edites archivos de la app para forzar actualización.
-const VERSION = 'gre-study-v4';
-const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'manifest.json',
+const VERSION = 'gre-study-v5';
+const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'extras.js', 'manifest.json',
   'icons/icon-192.png', 'icons/icon-512.png', 'data/index.json', 'data/vocabulary.json', 'data/arithmetic.json',
   'data/algebra.json', 'data/geometry.json', 'data/data-analysis.json',
   'data/text-completion.json', 'data/sentence-equivalence.json', 'data/reading-comprehension.json'];

@@ -12,7 +12,7 @@ const app = $('#app'), titleEl = $('#title'), backBtn = $('#back');
 
 /* ---------- Estado (localStorage) ---------- */
 const today = () => { const d = new Date(); return Math.floor((d.getTime() - d.getTimezoneOffset() * 60000) / 864e5); };
-const blank = () => ({ v: 1, cards: {}, days: [], newToday: { day: 0, n: 0 }, theme: 'auto', mistakes: [], stats: {} });
+const blank = () => ({ v: 1, cards: {}, days: [], newToday: { day: 0, n: 0 }, theme: 'auto', mistakes: [], stats: {}, extra: null });
 let state = load();
 function load() {
   try { const s = JSON.parse(localStorage.getItem(KEY)); if (s && s.v === 1) return Object.assign(blank(), s); } catch (e) {}
@@ -147,6 +147,7 @@ function settings() {
       <button class="btn sec" id="imp">Importar JSON</button>
       <input type="file" id="file" accept="application/json,.json" hidden>
       <p class="muted" id="msg"></p></div>
+    <div id="xset"></div>
     <div class="card"><b>Borrar progreso</b><button class="btn sec" id="reset">Borrar todo</button></div>`;
   app.querySelectorAll('[data-t]').forEach(b => b.onclick = () => { state.theme = b.dataset.t; save(); applyTheme(); });
   $('#exp').onclick = () => {
@@ -163,6 +164,7 @@ function settings() {
       state = Object.assign(blank(), s); save(); applyTheme(); $('#msg').textContent = 'Importado ✅';
     } catch (err) { $('#msg').textContent = 'Archivo no válido.'; }
   };
+  if (window.GSX) GSX.settings($('#xset'));
   $('#reset').onclick = () => { if (confirm('¿Borrar todo el progreso?')) { state = blank(); save(); applyTheme(); go(''); } };
 }
 
@@ -210,7 +212,7 @@ function runQuiz(list, opts) {
     const q = list[i]; let locked = false; const sel = new Set();
     const choices = q.type === 'qc' ? QC_CHOICES : (q.choices || []);
     const answerSet = new Set([].concat(q.answer));
-    app.innerHTML = `<div class="muted">${i + 1}/${total}</div><div class="progress"><i style="width:${i / total * 100}%"></i></div>
+    app.innerHTML = `<div class="muted">${i + 1}/${total} <span id="qt" class="timer"></span></div><div class="progress"><i style="width:${i / total * 100}%"></i></div>
       ${q.passage ? `<div class="card passage">${esc(q.passage)}</div>` : ''}
       <div class="card"><div class="stem">${esc(q.stem)}</div>
       ${q.type === 'qc' ? `<div class="qc"><div><b>A</b> ${esc(q.quantityA)}</div><div><b>B</b> ${esc(q.quantityB)}</div></div>` : ''}
@@ -235,8 +237,16 @@ function runQuiz(list, opts) {
     }
     $('#hint').onclick = () => { $('#hintBox').innerHTML = `<div class="card muted">${esc(q.hint)}</div>`; $('#hint').hidden = true; };
 
-    function finish(ok, picked) {
-      if (locked) return; locked = true; if (ok) okCount++; record(q, ok);
+    clearInterval(window.__qt);
+    if (opts.limit) {
+      let left = opts.limit; const el = $('#qt');
+      const tick = () => { el.textContent = String(Math.floor(left / 60)).padStart(2, '0') + ':' + String(left % 60).padStart(2, '0'); el.classList.toggle('warn', left <= 30); if (left <= 0) finish(false, null, true); left--; };
+      tick(); window.__qt = setInterval(tick, 1000);
+    }
+
+    function finish(ok, picked, timeout) {
+      if (locked) return; locked = true; clearInterval(window.__qt); if (ok) okCount++; record(q, ok);
+      if (opts.onAnswer) opts.onAnswer(q, ok);
       optsEl.querySelectorAll('.opt').forEach(b => {
         const k = +b.dataset.k; b.disabled = true;
         if (answerSet.has(k)) b.classList.add('ok');
@@ -246,7 +256,7 @@ function runQuiz(list, opts) {
       let why = '';
       if (q.whyWrong) why = '<ul>' + choices.map((c, k) => (!answerSet.has(k) && q.whyWrong[k]) ? `<li><b>${letter(k)}</b> ${esc(q.whyWrong[k])}</li>` : '').join('') + '</ul>';
       const ans = q.type === 'numeric' ? `<p>Respuesta: <b>${esc(q.answer)}</b></p>` : '';
-      $('#fb').innerHTML = `<div class="card fb ${ok ? 'okc' : 'badc'}"><b>${ok ? '✓ Correcto' : '✗ Incorrecto'}</b>${ans}<p>${esc(q.explanation)}</p>${why}</div>`;
+      $('#fb').innerHTML = `<div class="card fb ${ok ? 'okc' : 'badc'}"><b>${ok ? '✓ Correcto' : timeout ? '⏱ Tiempo agotado' : '✗ Incorrecto'}</b>${ans}<p>${esc(q.explanation)}</p>${why}</div>`;
       $('#ctl').innerHTML = `<button class="btn" id="nx">${i + 1 >= total ? 'Terminar' : 'Siguiente'}</button>`;
       $('#nx').onclick = () => { i++; next(); };
       $('#nx').scrollIntoView({ block: 'nearest' });
@@ -351,6 +361,10 @@ async function progress() {
 function go(h) { location.hash = '#/' + h; }
 function route() {
   const [, page, arg, arg2] = location.hash.split('/');
+  clearInterval(window.__qt);
+  if (window.GSX) GSX.leave();
+  document.querySelectorAll('#tabs a').forEach(a => a.classList.toggle('on', a.dataset.p === (['quant', 'verbal', 'essay', 'pron'].includes(page) ? page : '')));
+  if (window.GSX && GSX.routes[page]) return GSX.routes[page](arg, arg2);
   const R = { study: () => study(arg), topic: () => topicPage(arg), unit: () => unitPage(arg, +arg2),
     practice: () => practice(arg, +arg2), checkpoint: () => checkpoint(arg), review: review, mistakes: mistakes,
     progress: progress, settings: settings };
@@ -359,6 +373,7 @@ function route() {
 window.addEventListener('hashchange', route);
 backBtn.onclick = () => history.length > 1 ? history.back() : go('');
 $('#settingsBtn').onclick = () => go('settings');
+window.GS = { get state() { return state; }, save, getJSON, grade, runQuiz, summary, setView, go, esc, shuffle, app };
 applyTheme(); route();
 
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});

@@ -1,0 +1,104 @@
+{
+  "essayPrompts": [
+    {
+      "id": "ep1",
+      "claim": "Governments should place few, if any, restrictions on scientific research and development.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+    },
+    {
+      "id": "ep2",
+      "claim": "The best way to teach is to praise positive actions and ignore negative ones.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    },
+    {
+      "id": "ep3",
+      "claim": "Governments should offer college and university education free of charge to all students.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+    },
+    {
+      "id": "ep4",
+      "claim": "The luxuries and conveniences of contemporary life prevent people from developing into truly strong and independent individuals.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    },
+    {
+      "id": "ep5",
+      "claim": "In any field of inquiry, the beginner is more likely than the expert to make important contributions.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    },
+    {
+      "id": "ep6",
+      "claim": "The surest indicator of a great nation is represented not by the achievements of its rulers, artists, or scientists, but by the general welfare of its people.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    },
+    {
+      "id": "ep7",
+      "claim": "The best way to teach — whether as an educator, employer, or parent — is to praise positive actions and ignore negative ones.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+    },
+    {
+      "id": "ep8",
+      "claim": "Teachers' salaries should be based on their students' academic performance.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+    },
+    {
+      "id": "ep9",
+      "claim": "Society should make efforts to save endangered species only if the potential extinction of those species is the result of human activities.",
+      "instruction": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position."
+    },
+    {
+      "id": "ep10",
+      "claim": "College students should base their choice of a field of study on the availability of jobs in that field.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+    },
+    {
+      "id": "ep11",
+      "claim": "As we acquire more knowledge, things do not become more comprehensible, but more complex and mysterious.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    },
+    {
+      "id": "ep12",
+      "claim": "In any situation, progress requires discussion among people who have contrasting points of view.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    },
+    {
+      "id": "ep13",
+      "claim": "Educational institutions should dissuade students from pursuing fields of study in which they are unlikely to succeed.",
+      "instruction": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position."
+    },
+    {
+      "id": "ep14",
+      "claim": "Governments should not fund any scientific research whose consequences are unclear.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+    },
+    {
+      "id": "ep15",
+      "claim": "Society should identify those children who have special talents and provide training for them at an early age to develop their talents.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+    },
+    {
+      "id": "ep16",
+      "claim": "It is primarily through our identification with social groups that we define ourselves.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    },
+    {
+      "id": "ep17",
+      "claim": "College students should be encouraged to pursue subjects that interest them rather than the courses that seem most likely to lead to jobs.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+    },
+    {
+      "id": "ep18",
+      "claim": "Claim: When planning courses, educators should take into account the interests and suggestions of their students. Reason: Students are more motivated to learn when they are interested in what they are studying.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+    },
+    {
+      "id": "ep19",
+      "claim": "The greatness of individuals can be decided only by those who live after them, not by their contemporaries.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    },
+    {
+      "id": "ep20",
+      "claim": "Students should always question what they are taught instead of accepting it passively.",
+      "instruction": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    }
+  ]
+}
